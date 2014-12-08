@@ -1,0 +1,110 @@
+422F00: Returns arg1, to min of arg2 and max of arg3 (if conflict, return min.)
+50BA00: Break bit offset number (arg1) into byte offset number (*arg3) and bit within byte (*arg2).
+64601D: Randomizer.
+5A5A60: Unit cost calculation.  Mode-specific stuff at 5A5CC0[mode*4].
+421670: Tests if the arg1'th facility is either present at the arg2'th base, or else one of the first arg3 
+  things to be built (with the one currently in production being #1).  Returns boolean.
+64FC88: *arg2 is set to string version of arg1, base arg3.
+644F3A: Absolute value.
+534400: TCP/IP stuff
+500290: As 421670, but always uses current base, and does not test production/queue.
+5B9F20: Test if fac arg2 has tech arg1, returns boolean
+565C69: Load DWORD to [ESI] and advance ESI
+402C62: Same for BYTE
+565C8A: Same for WORD/WORD
+4CCCF6: Same for WORD
+565CAC: Same for tech
+4E47C9: Same for bitfield, moves to [949858], bit equal to arg1.
+5FD570: Get next line.
+5FD740: Get value on line and go to next value (after comma)
+4F79C0: Base mechanics
+565C21: Base calculations:
+   4E9550: Units
+   4E80B0: Base radius
+   4E9B70: Nutrients
+   4E9CB0: Minerals
+   4EB560: Energy
+4F07E0: Base building
+4EF1C0: Base growing
+4F67F0: Fungal pop
+4EA540: Drones and talents
+4F5CE0: Riots/golden age  
+4F4FB0: Riot effects (Relationship formula for revolt begins at 4F54E1.)
+5BA128: Test if fac arg2 can build facility/project arg1 at base arg3 at queue position arg4 
+  (0 is to build it now)
+40C850: Base supported units images.  40D093 begins convoy code, 40CD88 is support.
+5E4B9A: Create icon; ECX is icon ID and arg3 and arg4 are horizontal and vertical position.
+4E7DC0: Square Resource calculation for resource arg1 (starts at 0).  
+  Calculate moving everything forward, with arg5=0
+4E6E50: Square nutrient calculation.
+4E7310: Square mineral calculation
+4E7750: Square energy calculation
+645460/70: strcpy/strcat
+6453E0:strlen
+4F8090: Find distance corresponding to horizontal distance arg1, vertical distance arg2.
+5C1540: With arg2=0, find total road-moves for unit #arg1.  (Unit, not unittype.)
+44B460: For convoy with pointer at arg1 harvesting base #arg2 with owner #arg3 from a square that produces arg4
+  of resource arg5, amount gained by crawler (includes penalty and single/multi harvesting)
+4D8FA0: Convoy prompt for unit number arg1 (unit# also contained at [ECX]+23BDC).
+531020: Something to do with multiplayer constraints, probably.
+4E3A50: Returns base at location (-1 if no base)
+565CC3: With ESI as unit pointer, determine if can multiharvest in current location (cannot multiharvest 
+  in base b/c cannot harvest at all); if not, set ECX to 0, if yes add appropriate resources description to
+  string at EDI and return to function that called calling function (assumes that calling function created 
+  local variables then pushed EBX, ESI, EDI, then immediately (in terms of stack) called 565CC3 with nothing
+  in between.)
+44B37B: Printing miscellaneous tech information
+5C1150: Missile attack calculation
+436B5B: Turn arg1/arg2 into string base arg4, up to arg5 digits, and place at *arg3.
+40E360: Something to do with displaying base; refers to facility cost at 40EB33.
+4F4830: Check for sufficient minerals, cancel exports/disband if not.
+6392DC: Determine if unit with pointer at arg1 requires support; 1 for yes, -1 for no, and 0 for would except is
+  in fungus
+565ADA: If arg2=0, sets support flags for current base and returns minerals used on support, or negative of
+  support remaining, assuming SUPPORT=arg1.  If arg2=1, does same, but ignores fungus.
+4E9500: As above (not ignoring fungus) for base number arg1 and appropriate SUPPORT value.
+5947C0: Unit movement.  Worm capture at 595C01.  (Tests nearest-base ecodamage at 595D11.)
+4B4CF0: Unit details display.
+607E50: Create button.
+57A660: Pod resolution (not sure if anything else too).
+4E4430: Get min/nut per row for fac# arg1; arg2 determines whether is for minerals (if 0, is nut), 
+  and arg3 determines (negative is no, 0 or positive is yes) whether affected by creche and ?base effect 
+  (+30, bit 4)
+585170: Load alphax variables.
+501DA0: Combat calculation.
+501940: Part of calculating defender strength.
+5C0DB0: Test if artillery-capable.
+5C0E40: Base morale/lifecycle calculations.
+4C9B00: Determine time for unit #arg1 to build improvement #arg2; if arg3 is nonzero, it is (I think) used to track 
+  turns already spent, and is adjusted. 
+4E3EF0: Determine owner of square with coordinates at arg2 and arg3; if nobody, returns -1, otherwise if owner 
+  is arg1 returns that.  Otherwise, if arg5 and 9A64C0 bit 80 are both 0, and fac arg1's 96C9F8-value lacks
+  bits 8 00 00 08, return -1. Otherwise, returns square's owner, but if arg4!=0, first calls 4E3D50
+  with args arg2, arg3, -1, byte 3 of square, -1, -1, then stores the result at *arg4.
+506AF0: Determine defender.
+5BF1F0: Test if unit has special ability.
+50C510: Capture base.
+406380: ?Produce message from script.txt determined by arg2.  Not sure what the other arguments and ECX do.
+625E30/50/C0: Loads arg2 as #NUM/other variable/other variable #arg1 in script.  50 and C0 allow alternate load
+  structures via arg3 and arg4 (use -1/-1 for standard), and 50 also enables usage of -Nil- instead.  625E30 preserves
+  EDX.
+4E48B0: Add (if arg3) or remove (if not) facility #arg1 to/from base #arg2.
+4E4700: Generate retool code (to be changed)
+44B419: Returns category for item arg1: 1 for unit, 2 for facility, 3 for satellite/stockpile, 4 for project.
+  If arg1>1000, returns arg1-1000.  Trashes ECX, returns EAX, preserves EDX.
+44B7A9: Returns address for type of category arg1; if arg2==1 (must be 0 or 1), uses plural.  Preserves ECX, EDX.
+417AB3: Returns amount left from arg1 minerals after retooling from arg2 to arg3 at base #arg4.  
+  If arg5&1, instead returns amount lost from arg6.  If arg5&2, sets all appropriate text (incl. "#" heading) for script, 
+  excl. item types, assuming current minerals is arg6.  Uses x+1000 for arbitrary category x (use at one only).
+  (Uses 3 and 4 for old/new categories, and numbers 0 for penalty, 1 for exemption, 2 for amount lost.)
+4E4810: If base #arg1 owned by AI player returns 0, otherwise returns amount spent on retool this turn.
+59F120: Probe team actions
+579770: Pick random number from 0 to arg1-1.  (Returns 0 if arg1<1.)
+5A59E0: Hit points left to unit arg1.
+5B9580: Find number of units in unit arg1's square with properties depending on other arguments.
+4F6510: Get maintenance of facility arg1 for faction arg2 (excluding effect of self-aware colony).
+57EFA0: Best reactor available to faction arg1, min 1
+4A9050: Base Operations (F4) screen
+4E39D0: Set current base to base arg1, and currentbaseptr accordingly.
+645660: Compare string at arg1 to string at arg2, return -1, 0, or 1 by >=<.
+5C03D0: Create unit arg1 for faction arg2 at coordinates arg3,arg4 (or arg4,arg3?)

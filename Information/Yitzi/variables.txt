@@ -1,0 +1,119 @@
+unit count: 9A64C8
+base count: 9A64CC
+current base pointer: 90EA30
+current base number: 689370
+Project locations: 9A6514-9A6610  (VoP is 9A6590)
+Global difficulty: 9A64C4
+Human player list: 9A64E8
+Rules: 9A649C
+Flat map: 94988C, bit 1
+Half map width: 68FAF0
+Map width: 949870
+Working string: 9B86A0
+labels length: 9B90FC
+ptr to list of ptrs to labels: 9B90F8
+Is expansion: 9A6488
+
+Factions: Size 20CC.  Faction 0 would have:
+  Nessus at 96D1EC 
+  Difficulty at 96C9E8
+  Credits at 96CC00
+  Relationship with faction x at 96C9F8+4*x.  Pact is bit 1, treaty is 2, truce is 4, vendetta is 10.
+  AI value for SUPPORT x at 96D080+4*x.
+
+SMAX faction stuff: Size 59C.  Faction 0 would have:
+"Gaian psi" at 946F4C.
+
+Bases: Size is 134, begins at 97D040
+Location (horizontal/vertical): +0/+2
+Owner: +4
+Former owner: +5
+Population: +6
+Turns left to revolt: +7
+Flags: +30.  Rioting is 2, golden age is 4, network interlock is 40, energy interlock is 40 00 00, genetic 
+plague interlock is 2 00 00.
+Facilities: Start at +8C
+Talents: +118
+Drones: +11C
+Superdrones: +120
+
+
+Units: At 952828, size 34
+Position: +0/+2 (word/word)
+Flags I: +4
+  Recieves support: 10
+  Just did airdrop: 20
+  Takes up free non-pacifism slot: 20 00 00
+  Causes pacifism: 40 00 00
+  Is crawling: 4 00 00 00
+Flags II: +8
+  Objective: 20
+  Lurker: 40
+  Random start: 80
+  Monolith start: 100
+  Fungus start: 200
+  Invisible: 400
+Unit type: +A
+Owner: +E
+Year to stop lurking: +F
+Damage taken: +10
+Action: +11
+"Go to" location: +14/+1C
+Morale: +24
+Double-turns terraforming so far: +25
+Type crawling (crawler): +26
+Road-moves spent: +28
+Home base: +2E (word)
+Next unit in square: +30
+Previous unit in square: +32
+
+Weapons: 10 size.  Weapons[0] has value at 94AE68, mode at 94AE6A, and cost at 94AE6B.
+Armor: 10 size.  Armors[0] has value at 94F280, and cost at 94F282.
+Chassis: 90 size.  Chassis[0] has triad at 94A379, fuel at 94A37A, cost at 94A37C, and missile at 94A37D.
+Unit types: "player 0" is predesigned.  Size 34.  
+  Unittypes[0] has chassis at 9AB88C, weapon at 9AB88D, armor at 9AB88E, reactor at 9AB88F, role at 9AB892.
+
+Map square:
+  Height category (thousands of feet): +0, bits E0
+  Height is determined by +1
+  Raininess: +0, bits 18
+  Rockiness: +4, bits C0 00
+  Improvements: +8:
+    Base: bit 1 (but seems to be a bit more complicated)
+    Unit(s): bit 2 (probably, but also has same complications as base)
+    Road: bit 4
+    Magtube: bit 8 (so has C)
+    Mine: bit 10
+    Fungus: bit 20
+    Solar: bit 40
+    River: bit 80
+    Resource bonus: bit 4 00
+    Monolith: bit 20 00
+    Farm: bit 80 00
+    Enricher: bit 8 00 00
+    Forest: bit 20 00 00
+    Condenser: bit 40 00 00
+    Mirror: bit 80 00 00
+    Borehole: bit 1 00 00 00
+  Landmarks: +C:
+    Crater: 1
+    Volcano: 2
+    Jungle: 4
+    Uranium: 8
+    New Sargasso: 10
+    Ruins: 20
+    Dune: 40
+    Freshwater: 80
+    Mesa: 1 00
+    Canyon: 2 00
+    Geothermal: 4 00
+    Pholus Ridge: 8 00
+    Borehole cluster (actual holes): 10 00
+    Manifold Nexus: 20 00
+    Unity: 40 00
+    Fossil field ridge: 80 00
+    Higher seems to be control rules.
+
+Facilities: Size 30, facility 0 would have cost at 9A4B74, maintenance at 9A4B78, and no-maintenance tech at 9A4B80.
+
+virtual mineral count: 946138+4Xfac#

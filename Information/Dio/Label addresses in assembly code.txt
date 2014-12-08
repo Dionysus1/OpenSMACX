@@ -1,0 +1,1352 @@
+004079F7   mov eax, dword ptr ds:[edx+A88]           Save 
+00407B57   mov eax, dword ptr ds:[edx+A84]           Loads
+00408CC3   mov eax, dword ptr ds:[edx+F28]           Captured Base 
+00408CDA   mov eax, dword ptr ds:[eax+F2C]           Stapled Base
+00408CEB   mov eax, dword ptr ds:[ecx+508]           Unmodified
+00408CFC   mov eax, dword ptr ds:[edx+50C]           Psych
+00408D0C   mov eax, dword ptr ds:[eax+510]           Facilities
+00408D17   mov esi, dword ptr ds:[689370]            Police
+00408D78   add ecx, 145                              Pacifism
+00408DA6   mov eax, dword ptr ds:[eax+51C]           Secret Projects
+0040A9FD   mov eax, dword ptr ds:[ecx+2C8]           Worker 
+0040B649   mov eax, dword ptr ds:[edx+B6C]           Cancel Orders
+0040B669   mov edx, dword ptr ds:[ecx+958]           Activate Unit
+0040B696   mov ecx, dword ptr ds:[eax+DFC]           Edit Unit
+0040B6CD   mov eax, dword ptr ds:[edx+B70]           Sleep / Board Transport
+0040B6ED   mov edx, dword ptr ds:[ecx+B74]           Hold
+0040B711   mov ecx, dword ptr ds:[eax+B78]           Disband
+0040B798   mov eax, dword ptr ds:[edx+B7C]           Support From Here
+0040B7B8   mov edx, dword ptr ds:[ecx+B80]           Zoom To Home Base
+0040B897   mov edx, dword ptr ds:[ecx+B84]           Order Unit To Come Home
+0040B8BB   mov ecx, dword ptr ds:[eax+910]           Recenter map window here
+0040C9BC   mov eax, dword ptr ds:[ecx+100]           Minerals
+0040D8A1   mov eax, dword ptr ds:[eax+308]           Independent
+0040D938   mov eax, dword ptr ds:[eax+9E4]           ALREADY MOVED
+0040D99F   mov eax, dword ptr ds:[eax+1C]            Moves
+0040DAEE   mov eax, dword ptr ds:[ecx+30C]           Fuel
+0040DDD0   mov eax, dword ptr ds:[edx+360]           Cargo
+0040DEB8   mov eax, dword ptr ds:[edx+628]           Damaged
+0040E241   mov eax, dword ptr ds:[edx+71C]           TURNS TO GO
+0040E8C2   mov eax, dword ptr ds:[edx+2E4]           Prototype
+0040EE7A   mov eax, dword ptr ds:[eax+7A4]           COMPLETE
+0040EEFC   mov eax, dword ptr ds:[ecx+C4]            turns
+0040EFE9   mov eax, dword ptr ds:[edx+10C]           Hurry
+0040F917   mov eax, dword ptr ds:[ecx+BE0]           NUTRIENTS: Bumper Crops
+0040F950   mov eax, dword ptr ds:[edx+BD8]           +1/sq
+0040F98F   mov eax, dword ptr ds:[edx+BE4]           NUTRIENTS: Crop Failure
+0040F9C2   mov eax, dword ptr ds:[eax+BDC]           -1/sq
+0040FA02   mov eax, dword ptr ds:[eax+BE8]           MINERALS: Industrial Boom
+0040FA31   mov eax, dword ptr ds:[ecx+BD8]           +1/sq
+0040FA71   mov eax, dword ptr ds:[ecx+BEC]           MINERALS: Industrial Bust
+0040FAAA   mov eax, dword ptr ds:[edx+BDC]           -1/sq
+0040FAE9   mov eax, dword ptr ds:[edx+BF0]           ENERGY: Heat Wave
+0040FB1C   mov eax, dword ptr ds:[eax+BD8]           +1/sq
+0040FB5C   mov eax, dword ptr ds:[eax+BF4]           ENERGY: Cloud Cover
+0040FB8B   mov eax, dword ptr ds:[ecx+BDC]           -1/sq
+0040FBCC   mov eax, dword ptr ds:[ecx+BF8]           ENERGY: Dust Clouds
+0040FC05   mov eax, dword ptr ds:[edx+BDC]           -1/sq
+0040FE02   mov eax, dword ptr ds:[edx+110]           Base Facilities
+0041023C   mov eax, dword ptr ds:[eax+3A0]           Linked
+004109FA   mov eax, dword ptr ds:[edx+114C]          ENERGY GRID
+00410A20   mov eax, dword ptr ds:[eax+4E4]           Commerce
+00410C57   mov eax, dword ptr ds:[edx+90]            Energy
+00410CE5   mov eax, dword ptr ds:[eax+1194]          Shutdown
+00410F13   mov eax, dword ptr ds:[ecx+A14]           Pact
+00410F21   mov eax, dword ptr ds:[edx+A10]           Treaty
+00410FC3   mov eax, dword ptr ds:[ecx+A20]           They get labels.txt
+0041106A   mov eax, dword ptr ds:[eax+708]           Sanctions
+0041119C   mov eax, dword ptr ds:[ecx+64]            None
+00411399   mov eax, dword ptr ds:[ecx+820]           Nutrients
+004117A2   mov eax, dword ptr ds:[ecx+eax*4]         Number of years
+00411801   mov eax, dword ptr ds:[eax+C8]            stagnant
+00411899   mov eax, dword ptr ds:[eax+C4]            turns
+004118A7   mov eax, dword ptr ds:[ecx+C0]            turn
+00411D00   mov eax, dword ptr ds:[ecx+90]            Energy
+00411D39   mov eax, dword ptr ds:[edx+A38]           Allocation
+00411E5C   mov eax, dword ptr ds:[eax+5B8]           Economy
+00411FC1   mov eax, dword ptr ds:[ecx+90]            Energy
+00412118   mov eax, dword ptr ds:[ecx+17C]           Bonus
+004122A5   mov eax, dword ptr ds:[ecx+F0]            Labs
+00412414   mov eax, dword ptr ds:[edx+90]            Energy
+00412542   mov eax, dword ptr ds:[edx+17C]           bonus
+004126C5   mov eax, dword ptr ds:[ecx+4F8]           Psych
+00412836   mov eax, dword ptr ds:[edx+90]            Energy
+00412960   mov eax, dword ptr ds:[edx+17C]           Bonus
+00412EB2   mov eax, dword ptr ds:[edx+820]           Psych
+00413724   mov eax, dword ptr ds:[eax+A0]            Minerals
+00414017   mov eax, dword ptr ds:[eax+90]            Energy
+00414850   mov eax, dword ptr ds:[ecx+AE4]           Shortfall
+00414882   mov eax, dword ptr ds:[edx+D0]            Surplus
+004148FD   mov eax, dword ptr ds:[ecx+A3C]           Intake
+004149BA   mov eax, dword ptr ds:[eax+A40]           Consumption
+00414A53   mov eax, dword ptr ds:[edx+E0]            Inefficiency
+00415247   mov eax, dword ptr ds:[ecx+77C]           Queue
+0041548F   mov eax, dword ptr ds:[ecx+730]           Empty Slot
+00415841   mov eax, dword ptr ds:[ecx+B68]           M.Y.
+00415916   mov eax, dword ptr ds:[ecx+90]            Energy
+00415A29   mov eax, dword ptr ds:[ecx+EF8]           Eco-damage
+004161CC   mov edx, dword ptr ds:[ecx+CA4]           CITIZENS: Shows the population of this base.^Also the # of Workers, Talents, Drones, and Specialists.
+0041623C   mov edx, dword ptr ds:[ecx+C9C]           SUPPORTED: Shows units supported by this base^(not necessarily present AT this base).
+004162AC   mov edx, dword ptr ds:[ecx+CA0]           GARRISON: Shows units present at this base.
+0041631C   mov edx, dword ptr ds:[ecx+CD0]           PRODUCTION: What this base is making.^Dark shows minerals needed to complete, bright shows progress.
+004166A2   mov eax, dword ptr ds:[edx+C98]           RESOURCES: Shows nutrients/minerals/energy produced in^each square. Click to change. Click square
+004166F7   mov edx, dword ptr ds:[ecx+C20]           Shows where the units supported by this base are
+00416754   mov ecx, dword ptr ds:[eax+C24]           Shows the origins of Drones and Talents at this base
+004167F0   mov ecx, dword ptr ds:[eax+1190]          ENERGY GRID: Resonance among base structures
+0041684A   mov eax, dword ptr ds:[edx+C74]           COMMERCE: With other factions at TREATY or PACT.
+004168B4   mov eax, dword ptr ds:[edx+C78]           FACILITIES: Shows Facilities at this base;^Click to scrap and recycle.
+0041691E   mov eax, dword ptr ds:[edx+C7C]           NUTRIENTS: Dark green shows nutrients needed for growth;^Bright shows nutrients accumulated.
+0041699E   mov eax, dword ptr ds:[edx+C80]           ENERGY supports economy and research.
+00416A1E   mov eax, dword ptr ds:[edx+C84]           MINERALS support production and units.
+00416A9E   mov eax, dword ptr ds:[edx+C88]           NUTRIENTS support population and growth.
+00416B1E   mov eax, dword ptr ds:[edx+C8C]           ENERGY for PSYCH improves living conditions: more TALENTS and fewer DRONES.
+00416B9E   mov eax, dword ptr ds:[edx+C90]           ENERGY for LABS supports research.
+00416C1E   mov eax, dword ptr ds:[edx+C94]           ENERGY for ECONOMY creates wealth.
+00417BB4   mov eax, dword ptr ds:[edx+B0C]           Add to beginning of build queue.
+00417BD4   mov edx, dword ptr ds:[ecx+B10]           Add to end of build queue.
+0041B810   mov edx, dword ptr ds:[ecx+438]           Done
+0041B832   mov ecx, dword ptr ds:[eax+FC0]           Toggle
+0041B8A0   mov eax, dword ptr ds:[eax+D50]           Present
+0041B901   mov eax, dword ptr ds:[ecx+3DC]            FACTION
+0041B931   mov eax, dword ptr ds:[edx+4D8]           Not Available
+0041BC6A   mov eax, dword ptr ds:[eax+D54]           destroyed
+0041BC9F   mov eax, dword ptr ds:[ecx+3DC]           FACTION
+0041BCBE   mov eax, dword ptr ds:[edx+4D8]           Not Available
+0041BDCE   mov edx, dword ptr ds:[ecx+D64]           Reset to unbuilt
+0041BDF5   mov ecx, dword ptr ds:[eax+D68]           Set to destroyed
+0041C2D4   mov eax, dword ptr ds:[ecx+E64]           ALL BASES THIS FACTION
+0041C319   mov eax, dword ptr ds:[edx+E68]           ALL BASES
+0041C816   mov edx, dword ptr ds:[ecx+D40]           Increase base population|+
+0041C83A   mov ecx, dword ptr ds:[eax+D44]           Decrease base population|-
+0041C871   mov eax, dword ptr ds:[edx+D58]           Copy base facilities (from another base)
+0041C891   mov edx, dword ptr ds:[ecx+E60]           Copy base facilities (to another base)
+0041C8B5   mov ecx, dword ptr ds:[eax+D5C]           Clear all facilities
+0041C8DF   mov eax, dword ptr ds:[edx+D60]           Add all available facilities
+0041C91C   mov eax, dword ptr ds:[edx+E04]           Clear OBJECTIVE flag
+0041C92B   mov edx, dword ptr ds:[ecx+E00]           Mark base as OBJECTIVE
+0041C95C   mov ecx, dword ptr ds:[eax+D48]           Edit base facilities
+0041C986   mov eax, dword ptr ds:[edx+D4C]           Edit secret projects
+0041C9B3   mov edx, dword ptr ds:[ecx+F58]           Edit Minerals
+0041C9D7   mov ecx, dword ptr ds:[eax+F5C]           Edit Nutrients
+0041CA0E   mov eax, dword ptr ds:[edx+103C]          Change Owner
+0041CA2E   mov edx, dword ptr ds:[ecx+1040]          Change former owner
+0041CA52   mov ecx, dword ptr ds:[eax+E18]           Delete Base
+0041D8CA   mov eax, dword ptr ds:[eax+A4C]           Energy Allocation
+0041D90A   mov eax, dword ptr ds:[ecx+A50]           Resource Expenses
+0041F936   mov eax, dword ptr ds:[eax+77C]           Queue
+0041F99B   mov ecx, dword ptr ds:[eax+C30]           BUILD QUEUE:^Sets a series of production orders
+0041F9CA   mov eax, dword ptr ds:[edx+108]           Shows Previous Base (in alphabetical order)
+0041FAA3   mov eax, dword ptr ds:[edx+104]           Shows Next Base (in alphabetical order)
+0041FB6C   mov eax, dword ptr ds:[edx+194]           Ok labels.txt
+0041FBD6   mov eax, dword ptr ds:[eax+1F4]           Rename
+0041FC3D   mov eax, dword ptr ds:[eax+814]           CHANGE
+0041FC9E   mov ecx, dword ptr ds:[eax+C28]           Changes this base's production orders
+0041FCC9   mov eax, dword ptr ds:[edx+AC]            Hurry
+0041FD2A   mov ecx, dword ptr ds:[eax+C2C]           Hurries this base's production
+0041FD55   mov eax, dword ptr ds:[edx+4FC]           Resource
+0041FDDA   mov ecx, dword ptr ds:[eax+C1C]           Shows the resources being produced by this base
+0041FE05   mov eax, dword ptr ds:[edx+D4]            Support
+0041FE8A   mov ecx, dword ptr ds:[eax+C20]           Shows where the units supported by this base are
+0041FEB5   mov eax, dword ptr ds:[edx+4F8]           Psych
+0041FF3A   mov ecx, dword ptr ds:[eax+C24]           Shows the origins of Drones and Talents at this base
+0041FF65   mov eax, dword ptr ds:[edx+824]           EXPLORE
+00420067   mov ecx, dword ptr ds:[eax+C08]           Activates the Governor^EXPLORE: Scouts, Colony Pods, Transports
+00420092   mov eax, dword ptr ds:[edx+828]           DISCOVER
+00420194   mov ecx, dword ptr ds:[eax+C0C]           Activates the Governor^DISCOVER: Projects, Prototypes, Probes, Network Nodes
+004201BF   mov eax, dword ptr ds:[edx+A54]           Advanced Governor Settings
+004202AD   mov eax, dword ptr ds:[eax+724]           Governor
+004203AF   mov ecx, dword ptr ds:[eax+C18]           Turns the Governor on or off
+004203DA   mov eax, dword ptr ds:[edx+A54]           Advanced Governor Settings
+004204C8   mov eax, dword ptr ds:[eax+82C]           BUILD
+004205CA   mov ecx, dword ptr ds:[eax+C10]           Activates the Governor^BUILD: Formers and Facilities
+004205F5   mov eax, dword ptr ds:[edx+830]           CONQUER
+004206F7   mov ecx, dword ptr ds:[eax+C14]           Activates the Governor^CONQUER: Military Units, Command Centers, etc.
+00420722   mov eax, dword ptr ds:[edx+A58]           TURN GOVERNOR OFF
+004207BD   mov eax, dword ptr ds:[edx+A58]           TURN GOVERNOR OFF
+00420858   mov eax, dword ptr ds:[edx+D38]           EDIT BASE
+004208B3   mov ecx, dword ptr ds:[eax+D3C]           EDIT: edit this base when creating a scenario
+004208ED   mov eax, dword ptr ds:[edx+A4C]           SELECT ALL
+0042224A   mov eax, dword ptr ds:[eax+4A0]           -- CAPTURED --
+00422262   mov eax, dword ptr ds:[ecx+49C]           -- EXTERMINATED --
+00422270   mov eax, dword ptr ds:[edx+498]           -- DESTROYED --
+00422572   mov eax, dword ptr ds:[ecx+310]           Psi
+00422972   mov eax, dword ptr ds:[edx+520]           Strength
+00422A7A   mov eax, dword ptr ds:[ecx+1E4]           Power
+00424A0A   mov eax, dword ptr ds:[edx+7C4]           ABSTAIN
+004261B9   mov eax, dword ptr ds:[eax+7BC]           YEA
+004261E6   mov eax, dword ptr ds:[edx+7C0]           NAY
+0042620E   mov eax, dword ptr ds:[ecx+7C4]           ABSTAIN
+0042623F   mov eax, dword ptr ds:[eax+7D4]           VETO
+0042626C   mov eax, dword ptr ds:[edx+7D8]           EXPELLED
+004263D9   mov eax, dword ptr ds:[edx+80C]           VOTES
+004263E6   mov eax, dword ptr ds:[eax+808]           VOTE
+00426547   mov eax, dword ptr ds:[edx+7C8]           PROPOSAL
+0042666F   mov eax, dword ptr ds:[ecx+E10]           Victory
+00426948   mov eax, dword ptr ds:[ecx+7BC]           YEA
+00426A14   mov eax, dword ptr ds:[eax+7C0]           NAY
+00426C72   mov eax, dword ptr ds:[eax+E10]           Victory
+00426D07   mov eax, dword ptr ds:[edx+7DC]           ELIMINATED
+00426DAA   mov eax, dword ptr ds:[edx+7E0]           MEASURE PASSES
+00426DFE   mov eax, dword ptr ds:[eax+E6C]           3/4 NEEDED
+00426E2F   mov eax, dword ptr ds:[ecx+804]           ELECTION DEADLOCKED
+00426E4F   mov eax, dword ptr ds:[edx+7E4]           EXECUTIVE VETO
+00427A3D   mov eax, dword ptr ds:[edx+7BC]           YEA
+00427AA9   mov eax, dword ptr ds:[eax+7EC]           VOTE
+00427B0F   mov eax, dword ptr ds:[ecx+7D0]           VETO
+00427B1D   mov eax, dword ptr ds:[edx+7C0]           NAY
+00427B91   mov eax, dword ptr ds:[eax+7C4]           ABSTAIN
+00427C00   mov eax, dword ptr ds:[eax+7BC]           YEA
+00427C62   mov eax, dword ptr ds:[eax+194]           OK
+00429C3C   mov ecx, dword ptr ds:[eax+edx]           Mission Year
+00429D06   mov eax, dword ptr ds:[ecx+9C]            Exit
+00429DA1   mov eax, dword ptr ds:[eax+A60]           Back
+0042A5E4   mov eax, dword ptr ds:[edx+B28]           ALL CATEGORIES
+0042A751   mov eax, dword ptr ds:[edx+B2C]           BASIC UNIT TYPES
+0042A8B7   mov eax, dword ptr ds:[edx+B30]           CHASSIS TYPES
+0042AA1D   mov eax, dword ptr ds:[edx+B34]           REACTOR TYPES
+0042AB7D   mov eax, dword ptr ds:[edx+B38]           WEAPONS AND MODULES
+0042ACDD   mov eax, dword ptr ds:[edx+B3C]           ARMOR TYPES
+0042AE3D   mov eax, dword ptr ds:[edx+B40]           SPECIAL ABILITIES
+0042AF9C   mov eax, dword ptr ds:[edx+B48]           BASE FACILITIES
+0042B14D   mov edx, dword ptr ds:[ecx+B4C]           SECRET PROJECTS
+0042B2BB   mov eax, dword ptr ds:[edx+B58]           TECH ADVANCES
+0042B44A   mov eax, dword ptr ds:[edx+B20]           BASIC CONCEPTS
+0042B5ED   mov eax, dword ptr ds:[edx+B24]           ADVANCED CONCEPTS
+0042B798   mov ecx, dword ptr ds:[eax+B50]           SOCIETY MODELS
+0042B8F7   mov eax, dword ptr ds:[edx+B54]           SOCIETY EFFECTS
+0042BA66   mov eax, dword ptr ds:[edx+B5C]           FACTION PROFILES
+0042BC74   mov edx, dword ptr ds:[ecx+B44]           TERRAFORMING
+0042CB8F   mov eax, dword ptr ds:[eax+204]           Weapon
+0042CBFB   mov eax, dword ptr ds:[edx+310]           Psi
+0042CC4F   mov eax, dword ptr ds:[eax+200]           Equipment
+0042CCFF   mov eax, dword ptr ds:[eax+204]           Weapon
+0042CD66   mov eax, dword ptr ds:[edx+310]           Psi
+0042CDEA   mov eax, dword ptr ds:[eax+154]           Defense
+0042CE51   mov eax, dword ptr ds:[edx+310]           Psi
+0042CED5   mov eax, dword ptr ds:[eax+1C]            Moves
+0042CFDF   mov eax, dword ptr ds:[ecx+360]           Cargo
+0042D0B7   mov eax, dword ptr ds:[ecx+30C]           Fuel
+0042D165   mov eax, dword ptr ds:[ecx+C0]            turn
+0042D173   mov eax, dword ptr ds:[edx+C4]            turns
+0042D1D4   mov eax, dword ptr ds:[eax+160]           Cost
+0042D29A   mov eax, dword ptr ds:[eax+F24]           PREREQUISITE
+0042D7E1   mov eax, dword ptr ds:[ecx+1C]            Moves
+0042D8CE   mov eax, dword ptr ds:[eax+360]           Cargo
+0042D963   mov eax, dword ptr ds:[eax+F34]           * Reactor
+0042D9A9   cmp byte ptr ds:[edi+94A379], 2           Chassis Triad Air
+0042D9C2   mov eax, dword ptr ds:[ecx+30C]           Fuel
+0042DA5F   mov eax, dword ptr ds:[ecx+C0]            turn
+0042DA6D   mov eax, dword ptr ds:[edx+C4]            turns
+0042DA7A   mov eax, dword ptr ds:[eax+F30]           Unlimited
+0042DAD1   mov eax, dword ptr ds:[ecx+160]           Cost
+0042DB7A   mov eax, dword ptr ds:[ecx+F24]           PREREQUISITE
+0042E4FD   mov eax, dword ptr ds:[ecx+310]           Psi
+0042E505   mov al, byte ptr ds:[ebx+94AE6A]          Weapons
+0042E525   mov eax, dword ptr ds:[edx+200]           Equipment
+0042EB13   mov eax, dword ptr ds:[ecx+310]           Psi
+0042EFB5   mov eax, dword ptr ds:[eax+1F0]           Attack
+0042EFE4   mov eax, dword ptr ds:[ecx+154]           Defense
+0042F013   mov eax, dword ptr ds:[edx+1F0]           Attack
+0042F03E   mov eax, dword ptr ds:[eax+154]           Defense
+0042F065   mov eax, dword ptr ds:[ecx+B14]           Speed
+0042F096   mov eax, dword ptr ds:[edx+1F0]           Attack
+0042F0C9   mov eax, dword ptr ds:[eax+154]           Defense
+0042F0F0   mov eax, dword ptr ds:[ecx+1F0]           Attack
+0042F129   mov eax, dword ptr ds:[edx+B14]           Speed
+0042F151   mov eax, dword ptr ds:[eax+154]           Defense
+0042F180   mov eax, dword ptr ds:[ecx+B14]           Speed
+00430386   mov eax, dword ptr ds:[edx+FD4]           No effects
+004317CA   mov eax, dword ptr ds:[edx+1110]          (may vary with terrain)
+00433066   mov eax, dword ptr ds:[ecx+204]           Weapon
+00433074   mov eax, dword ptr ds:[edx+200]           Equipment
+004330E8   mov eax, dword ptr ds:[eax+310]           Psi
+0043343B   mov eax, dword ptr ds:[eax+1F8]           Shielding
+00433493   mov eax, dword ptr ds:[eax+310]           Psi
+0043375B   mov eax, dword ptr ds:[edx+1E4]           Power
+004347E1   mov eax, dword ptr ds:[eax+E4C]           DESIGN WORKSHOP
+004348B6   mov eax, dword ptr ds:[eax+E44]           EXAMINING BASIC UNIT
+0043495B   mov eax, dword ptr ds:[eax+E50]           EXAMINING PREVIOUS DESIGN
+00434A34   mov eax, dword ptr ds:[ecx+E54]           NEW DESIGN BASED ON OLD
+00434A66   mov eax, dword ptr ds:[edx+C38]           MODIFYING PREVIOUS DESIGN
+00434A78   mov eax, dword ptr ds:[eax+C34]           DESIGNING NEW UNIT
+00434AB6   mov eax, dword ptr ds:[ecx+E48]           Slot
+00434C54   mov eax, dword ptr ds:[edx+140]           Chassis
+00434FE7   mov eax, dword ptr ds:[eax+204]           Weapon
+00434FF5   mov eax, dword ptr ds:[ecx+200]           Equipment
+004352D5   mov eax, dword ptr ds:[edx+200]           Equipment
+00435334   mov eax, dword ptr ds:[ecx+204]           Weapon
+0043537F   mov eax, dword ptr ds:[eax+310]           Psi
+00435494   mov eax, dword ptr ds:[edx+1F8]           Shielding
+0043563E   mov eax, dword ptr ds:[eax+64]            None
+0043574D   mov eax, dword ptr ds:[ecx+A6C]           Level 
+00435798   mov eax, dword ptr ds:[eax+310]           Psi
+00435898   mov eax, dword ptr ds:[edx+13C]           Reactor
+00435937   mov eax, dword ptr ds:[edx+584]           Heavy
+00435AB4   mov eax, dword ptr ds:[eax+1E4]           Power
+00435BDC   mov eax, dword ptr ds:[edx+228]           Special Ability
+00435C98   mov eax, dword ptr ds:[eax+64]            NONE
+00435E8C   mov eax, dword ptr ds:[edx+228]           Special Ability
+00435F48   mov eax, dword ptr ds:[eax+64]            NONE
+0043675B   mov eax, dword ptr ds:[eax+360]           Cargo
+004368D1   push dword ptr ds:[ecx+88C]               Infantry vs. Base
+00436A07   push dword ptr ds:[eax+98C]               Mobile in open
+00436B07   mov eax, dword ptr ds:[eax+160]           COST
+00436FA7   mov eax, dword ptr ds:[edx+E40]           EXAMINING BASIC UNIT
+004370A1   mov eax, dword ptr ds:[ecx+2FC]           Prototype Cost
+004371EC   mov eax, dword ptr ds:[ecx+3A4]           Prototype Complete
+0043739E   mov eax, dword ptr ds:[ecx+310]           Psi
+0043753E   mov eax, dword ptr ds:[eax+310]           Psi
+00437A68   mov eax, dword ptr ds:[eax+A70]           Vehicle Presets
+0043975D   mov eax, dword ptr ds:[edx+CD4]           CHASSIS: Determines how fast your unit moves,^and whether land, sea, or air.
+004397AD   mov edx, dword ptr ds:[ecx+CD8]           WEAPON: Allows your unit to attack (or)^EQUIPMENT: Allows non-combat functions.
+00439801   mov ecx, dword ptr ds:[eax+CDC]           ARMOR: Helps your unit defend against enemy attacks.
+0043985B   mov eax, dword ptr ds:[edx+CE0]           REACTOR: Increases power and reduces cost.
+004398AB   mov edx, dword ptr ds:[ecx+CE4]           ABILITY: Adds a specialty function to the unit.
+004398FF   mov ecx, dword ptr ds:[eax+CE4]           ABILITY: Adds a specialty function to the unit.
+0043AEEC   mov eax, dword ptr ds:[edx+220]           No special ability
+0043B04B   mov eax, dword ptr ds:[eax+160]           Cost
+0043B113   mov eax, dword ptr ds:[eax+1F0]           Attack
+0043B142   mov eax, dword ptr ds:[ecx+154]           Defense
+0043B1D2   mov eax, dword ptr ds:[eax+1F0]           Attack
+0043B268   mov eax, dword ptr ds:[ecx+154]           Defense
+0043B304   mov eax, dword ptr ds:[eax+B14]           Speed
+0043B3AE   mov eax, dword ptr ds:[ecx+1F0]           Attack
+0043B3E7   mov eax, dword ptr ds:[edx+154]           Defense
+0043B498   mov eax, dword ptr ds:[eax+1F0]           Attack
+0043B4C7   mov eax, dword ptr ds:[ecx+B14]           Speed
+0043B57D   mov eax, dword ptr ds:[eax+154]           Defense
+0043B5AC   mov eax, dword ptr ds:[ecx+B14]           Speed
+0043C7EE   mov eax, dword ptr ds:[edx+CEC]           PRESETS: Click these buttons for advice on^how to design a particular type of unit.
+0043CA4C   mov eax, dword ptr ds:[edx+E58]           Mk 
+0043CAA4   mov eax, dword ptr ds:[edx+E7C]           APPLY: apply changes but do not exit screen.
+0043CAC9   mov eax, dword ptr ds:[ecx+1024]          Proto
+0043CB2F   mov ecx, dword ptr ds:[eax+1028]          PROTO: Scenario Editor function; toggles "prototype complete" flag.
+0043CB5E   mov eax, dword ptr ds:[edx+E74]           Retire
+0043CBB2   mov eax, dword ptr ds:[edx+E78]           RETIRE: retire this unit; disband all units of this type.
+0043CBD7   mov eax, dword ptr ds:[ecx+1034]          Retire ALL
+0043CC39   mov ecx, dword ptr ds:[eax+1038]          RETIRE ALL: Scenario Editor fuction; clears all player prototypes.
+0043CC64   mov eax, dword ptr ds:[edx+BD0]           OBSOLETE
+0043CCC1   mov ecx, dword ptr ds:[eax+C58]           Mark this unit design as obsolete:^It will no longer show up on lists.
+0043CCEC   mov eax, dword ptr ds:[edx+BD4]           UPGRADE
+0043CD49   mov ecx, dword ptr ds:[eax+C5C]           Upgrade all units of this type to^another unit design you have created.
+0043CE0F   mov ecx, dword ptr ds:[eax+C64]           Stop showing me new unit designs
+0043CE1E   mov eax, dword ptr ds:[edx+C60]           Cancel unit design
+0043CE44   mov eax, dword ptr ds:[ecx+438]           Done
+0043CEA6   mov ecx, dword ptr ds:[eax+C50]           Accept this unit design 
+0043CED1   mov eax, dword ptr ds:[edx+1F4]           Rename 
+0043CF2E   mov ecx, dword ptr ds:[eax+C54]           Rename this unit type 
+0043D2DD   mov eax, dword ptr ds:[edx+CE8]           Select a design to examine or modify^or select an empty slot to design a new unit.
+0043D7D2   mov eax, dword ptr ds:[edx+1B8]           Empty Slot
+0043D985   mov eax, dword ptr ds:[eax+E40]           Obsolete
+0043DA17   mov eax, dword ptr ds:[eax+E40]           Obsolete
+0043E2EA   mov eax, dword ptr ds:[eax+E80]           active
+0043E386   mov eax, dword ptr ds:[eax+E84]           in production
+0043E3E9   mov eax, dword ptr ds:[ecx+E40]           Obsolete
+0043F692   mov eax, dword ptr ds:[edx+E8C]           BIOSCAN
+0043F916   mov eax, dword ptr ds:[eax+E90]           REPUTATION
+0043F9E8   mov eax, dword ptr ds:[eax+E94]           MOOD
+0043FD39   mov eax, dword ptr ds:[eax+E98]           DIPLOMATIC STATUS
+0043FD8B   mov eax, dword ptr ds:[ecx+A14]           Pact
+0043FD9D   mov eax, dword ptr ds:[edx+A10]           Treaty
+0043FDAE   mov eax, dword ptr ds:[eax+A0C]           Truce
+0043FDC0   mov eax, dword ptr ds:[ecx+A1C]           V'dtta
+0043FDCE   mov eax, dword ptr ds:[edx+64]            NONE
+0043FE1B   mov eax, dword ptr ds:[ecx+E9C]           INFILTRATION
+0043FE59   mov eax, dword ptr ds:[edx+614]           active
+0043FE66   mov eax, dword ptr ds:[eax+EA0]           INACTIVE
+0043FECA   mov eax, dword ptr ds:[edx+90]            Energy
+0043FF7F   mov eax, dword ptr ds:[edx+37C]           Might
+00440BC3   mov eax, dword ptr ds:[edx+EA8]           DATALINKS
+00440C04   mov eax, dword ptr ds:[edx+EAC]           HQINFO
+00440C30   mov eax, dword ptr ds:[ecx+774]           Profile
+00441B08   mov eax, dword ptr ds:[edx+4C8]           World Map
+00442C5C   mov eax, dword ptr ds:[eax+73C]           Negotiating
+00442C6D   mov eax, dword ptr ds:[ecx+740]           ACCEPT
+00442C96   mov eax, dword ptr ds:[ecx+744]           DECLINE
+00442CA4   mov eax, dword ptr ds:[edx+780]           DEAL COMPLETE
+00442CCA   mov eax, dword ptr ds:[edx+968]           THREATENS!
+00442CF0   mov eax, dword ptr ds:[edx+95C]           "Forget it!"
+00442D0F   mov eax, dword ptr ds:[eax+960]           "Almost..."
+0044300D   mov eax, dword ptr ds:[ecx+73C]           Negotiating
+0044301E   mov eax, dword ptr ds:[edx+740]           ACCEPT
+00443047   mov eax, dword ptr ds:[edx+744]           DECLINE
+00443054   mov eax, dword ptr ds:[eax+780]           DEAL COMPLETE
+0044307A   mov eax, dword ptr ds:[eax+968]           THREATENS!
+004430A0   mov eax, dword ptr ds:[eax+95C]           "Forget it!"
+004430C0   mov eax, dword ptr ds:[ecx+960]           "Almost..."
+00443377   mov eax, dword ptr ds:[eax+734]           - No Offers -
+004433B5   mov eax, dword ptr ds:[ecx+738]           - Offers -
+00443550   mov eax, dword ptr ds:[eax+90]            Energy
+0044355E   mov eax, dword ptr ds:[ecx+34C]           PACT
+0044356C   mov eax, dword ptr ds:[edx+350]           TREATY
+00443579   mov eax, dword ptr ds:[eax+354]           TRUCE
+004435A0   mov eax, dword ptr ds:[ecx+980]           You attack
+00443A1A   mov edx, dword ptr ds:[ecx+748]           Communications Link
+00443A70   mov eax, dword ptr ds:[eax+788]           Status
+00443AD4   mov eax, dword ptr ds:[eax+34C]           PACT
+00443AE6   mov eax, dword ptr ds:[ecx+350]           TREATY
+00443AF8   mov eax, dword ptr ds:[edx+354]           TRUCE
+00443B32   mov eax, dword ptr ds:[eax+358]           VENDETTA
+00443B5F   mov eax, dword ptr ds:[ecx+784]           NO TRUCE
+004447A8   mov eax, dword ptr ds:[eax+edx]           Mission Year
+00448947   mov eax, dword ptr ds:[edx+ecx]           Mission Year
+00448B04   mov eax, dword ptr ds:[ecx+2D0]           of the
+00448C5C   mov eax, dword ptr ds:[ecx+A64]           CLOSE
+004490DE   mov eax, dword ptr ds:[edx+F38]           HIGHEST SCORE
+00449148   mov eax, dword ptr ds:[ecx+F3C]           HIGHEST TECH LEVEL SCORE
+004491B8   mov eax, dword ptr ds:[eax+F40]           HIGHEST ENERGY RESERVES SCORE
+00449224   mov eax, dword ptr ds:[edx+F44]           HIGHEST POPULATION SCORE
+0044928B   mov eax, dword ptr ds:[ecx+F48]           FASTEST CONQUEST SCORE
+004492FB   mov eax, dword ptr ds:[eax+F4C]           FASTEST TRANSCENDENCE SCORE
+004493DB   mov eax, dword ptr ds:[eax+830]           CONQUER
+0044940A   mov eax, dword ptr ds:[ecx+E10]           Victory
+0044942A   mov eax, dword ptr ds:[eax+E88]           Economic Victory
+0044948F   mov eax, dword ptr ds:[edx+E70]           Diplomatic Victory
+004494AC   mov eax, dword ptr ds:[ecx+1014]          SCENARIO
+004494E0   mov eax, dword ptr ds:[edx+E10]           Victory
+0044955B   mov eax, dword ptr ds:[ecx+51C]           Secret Projects
+0044964F   mov eax, dword ptr ds:[eax+130]           Technologies
+0044973F   mov eax, dword ptr ds:[edx+E4]            Psych
+00449828   mov eax, dword ptr ds:[edx+AB4]           POPULATION
+00449911   mov eax, dword ptr ds:[edx+10A0]          DIFFICULTY
+00449A1F   mov eax, dword ptr ds:[eax+908]           Abundant Life Forms
+00449ADB   mov eax, dword ptr ds:[ecx+904]           Rare Life Forms
+00449BCA   mov eax, dword ptr ds:[eax+1044]          Iron Man
+00449C9E   mov eax, dword ptr ds:[edx+6C0]           Alpha Centauri Score
+00449D8E   mov eax, dword ptr ds:[edx+1090]          Alpha Centauri Rating
+00449EDF   mov eax, dword ptr ds:[eax+edx]           Mission Year
+0044A020   mov eax, dword ptr ds:[ecx+109C]          TOP 5 SCORES
+0044A08D   mov eax, dword ptr ds:[ecx+4C8]           World Map
+0044A107   mov eax, dword ptr ds:[ecx+F10]           SCORE ANALYSIS
+0044A39E   mov eax, dword ptr ds:[ecx+B68]           M.Y.
+0044B93B   mov eax, dword ptr ds:[ecx+7C8]           PROPOSAL
+0044BA3C   mov eax, dword ptr ds:[edx+234]           Reactors
+0044BB37   mov eax, dword ptr ds:[eax+120]           Chassis Types
+0044BC97   mov eax, dword ptr ds:[edx+124]           Weapons
+0044BD80   mov eax, dword ptr ds:[ecx+310]           Psi
+0044BDBC   mov eax, dword ptr ds:[edx+200]           Weapon
+0044BE78   mov eax, dword ptr ds:[edx+128]           Defenses
+0044BF61   mov eax, dword ptr ds:[ecx+310]           Psi
+0044C044   mov eax, dword ptr ds:[eax+12C]           Abilities
+0044C185   mov eax, dword ptr ds:[edx+318]           Unit Types
+0044C2BF   mov eax, dword ptr ds:[eax+110]           Base Facilities
+0044C3B2   mov eax, dword ptr ds:[eax+4DC]           FREE
+0044C48A   mov eax, dword ptr ds:[edx+118]           Socio/Economic Model
+0044C5C3   mov eax, dword ptr ds:[edx+4CC]           Citizens
+0044C69C   mov eax, dword ptr ds:[eax+130]           Technologies
+0045650C   mov eax, dword ptr ds:[edx]               Mission Year
+004565C6   mov eax, dword ptr ds:[edx+1A8]           Research
+00456751   mov eax, dword ptr ds:[ecx+C0]            turn
+0045692B   mov eax, dword ptr ds:[eax+C4]            turns
+004569A2   mov eax, dword ptr ds:[eax+4B0]           Commerce Rate
+00456A54   mov eax, dword ptr ds:[edx+4B4]           Commerce Income 
+00456AB4   mov eax, dword ptr ds:[ecx+4C0]           /turn
+00456B05   mov eax, dword ptr ds:[eax+4B8]           Gross Income
+00456B6A   mov eax, dword ptr ds:[edx+4C0]           /turn labels.txt
+00456C1F   mov eax, dword ptr ds:[eax+4C0]           /turn
+00456C71   mov eax, dword ptr ds:[edx+EFC]           Net Income
+00456CD1   mov eax, dword ptr ds:[ecx+4C0]           /turn
+00456E6F   mov eax, dword ptr ds:[ecx+34C]           PACT
+00456E85   mov eax, dword ptr ds:[eax+350]           TREATY
+00456EA7   mov eax, dword ptr ds:[edx+354]           TRUCE
+00456EC4   mov eax, dword ptr ds:[ecx+358]           VENDETTA
+00456FFB   mov eax, dword ptr ds:[eax+378]           Integrity
+004570B7   mov eax, dword ptr ds:[eax+37C]           Might
+00457168   mov eax, dword ptr ds:[edx+F00]           Planetary Council Votes
+00457241   mov eax, dword ptr ds:[eax+41C]           Tech
+0045736B   mov eax, dword ptr ds:[eax+420]           Mil
+0045748F   mov eax, dword ptr ds:[eax+424]           Pop
+00457576   mov eax, terranx_.0096ECCC                Energy
+004575B3   mov eax, dword ptr ds:[eax+4F0]           Wealth
+0045771E   mov eax, dword ptr ds:[eax+97C]           Territory
+00457809   mov eax, dword ptr ds:[edx+428]           Overall
+0045792F   mov eax, dword ptr ds:[eax+E0C]           Objectives
+0045795E   mov eax, dword ptr ds:[eax+6E0]           Faction Dominance
+00457BB6   mov eax, dword ptr ds:[edx+E0C]           Objectives
+00457BE6   mov eax, dword ptr ds:[edx+6E0]           Faction Dominance
+00457EA6   mov eax, dword ptr ds:[edx+6AC]           File
+00457EEA   mov eax, dword ptr ds:[eax+6A8]           Editing
+00457F61   mov eax, dword ptr ds:[edx+6A4]           Cover
+00457FAA   mov eax, dword ptr ds:[eax+EBC]           Elevations
+00457FB8   mov eax, dword ptr ds:[edx+EC0]           Rockiness
+00457FC6   mov eax, dword ptr ds:[ecx+EC4]           Rivers
+00457FD4   mov eax, dword ptr ds:[eax+EC8]           Resources
+00457FE2   mov eax, dword ptr ds:[edx+ECC]           Unity Pods
+00457FF0   mov eax, dword ptr ds:[ecx+ED0]           Cover Map
+00458083   mov eax, dword ptr ds:[edx+684]           cross
+004580BF   mov eax, dword ptr ds:[edx+688]           elevations
+0045812D   mov eax, dword ptr ds:[eax+D7C]           Map Size
+004581D4   mov eax, dword ptr ds:[eax+D80]           Flat
+004581F2   mov eax, dword ptr ds:[edx+D84]           Round
+00458233   mov eax, dword ptr ds:[eax+84]            Rainfall
+00458274   mov eax, dword ptr ds:[edx+ecx*4+50]      Arid, Moist, Rainy
+00458A2B   mov eax, dword ptr ds:[edx+92C]           Main scan
+00458A58   mov edx, dword ptr ds:[ecx+930]           Economy scan
+00458A89   mov ecx, dword ptr ds:[eax+934]           Enemy faction profile
+00458AC0   mov eax, dword ptr ds:[edx+938]           Diplomatic scan
+00458AED   mov edx, dword ptr ds:[ecx+948]           Faction dominance graph
+00458B1E   mov ecx, dword ptr ds:[eax+94C]           Faction dominance chart
+00458B55   mov eax, dword ptr ds:[edx+950]           Who's who
+00458B82   mov edx, dword ptr ds:[ecx+954]           Map editor scan
+00458BB3   mov ecx, dword ptr ds:[eax+8FC]           Help
+00458D11   call terranx_.0044CB30                    Help Button
+00458DED   cmp eax, 32                               Economy Scan
+00458E25   mov ecx, dword ptr ds:[93FAB4]            Diplomatic Scan
+00458E95   mov eax, dword ptr ds:[93FAB4]            Enemy Faction Profile
+00458ECF   pop edi                                   Main Scan and
+0045A93F   mov eax, dword ptr ds:[eax+ABC]           INFO
+0045A99F   mov ecx, dword ptr ds:[eax+C48]           Show general useful information
+0045A9CA   mov eax, dword ptr ds:[edx+AC0]           MESSAGES
+0045AA2A   mov ecx, dword ptr ds:[eax+C44]           Show events which have occurred this turn
+0045AA55   mov eax, dword ptr ds:[edx+DBC]           TOOLBAR
+0045AAD3   mov ecx, dword ptr ds:[eax+DC0]           TOOLBAR: Tool bar for map and scenario editor
+0045AB4F   mov ecx, dword ptr ds:[eax+9C0]           MENU
+0045AC16   mov edx, dword ptr ds:[ecx+C3C]           Activate the Main Game Menu
+0045AC34   mov ecx, dword ptr ds:[eax+83C]           COMMLINK
+0045ACFB   mov edx, dword ptr ds:[ecx+C40]           Communicate with other Faction Leaders
+0045AD50   mov ecx, dword ptr ds:[eax+4C8]           World Map
+0045ADC9   mov ecx, dword ptr ds:[eax+F20]           Detail Map
+0045B1E9   mov eax, dword ptr ds:[edx+EBC]           Elevations
+0045B1F6   mov eax, dword ptr ds:[eax+EC0]           Rockiness
+0045B204   mov eax, dword ptr ds:[ecx+EC4]           Rivers
+0045B212   mov eax, dword ptr ds:[edx+EC8]           Resources
+0045B21F   mov eax, dword ptr ds:[eax+ECC]           Unity Pods
+0045B22D   mov eax, dword ptr ds:[ecx+ED0]           Cover Map
+0045B62F   mov eax, dword ptr ds:[eax+6A8]           Editing
+0045B6DD   mov eax, dword ptr ds:[eax+6A4]           Cover
+0045B72D   mov eax, dword ptr ds:[edx+EBC]           Elevations
+0045B73B   mov eax, dword ptr ds:[ecx+EC0]           Rockiness
+0045B748   mov eax, dword ptr ds:[eax+EC4]           Rivers
+0045B756   mov eax, dword ptr ds:[edx+EC8]           Resources
+0045B764   mov eax, dword ptr ds:[ecx+ECC]           Unity Pod
+0045B771   mov eax, dword ptr ds:[eax+ED0]           Cover Map
+0045B82C   mov eax, dword ptr ds:[edx+684]           Cross
+0045B86E   mov eax, dword ptr ds:[edx+688]           Elevations
+0045B8FF   mov eax, dword ptr ds:[ecx+D7C]           Map Size
+0045B9B8   mov eax, dword ptr ds:[ecx+D80]           Flat
+0045B9DD   mov eax, dword ptr ds:[eax+D84]           Round
+0045BA43   mov eax, dword ptr ds:[edx+84]            Rainfall
+0045BA8C   mov eax, dword ptr ds:[ecx+eax*4+50]      Arid, Moist, Rainy
+0045BB29   mov eax, dword ptr ds:[edx+F50]           PAINT mode (Scroll Lock)
+0045BB53   mov eax, dword ptr ds:[ecx+1020]          EDITOR Mode
+0045BB78   mov eax, dword ptr ds:[eax+F54]           PLAY mode (No Scroll Lock)
+0045BF99   mov eax, dword ptr ds:[edx]               Mission Year
+0045C00E   mov eax, dword ptr ds:[edx+90]            Energy
+0045C3EB   mov edx, dword ptr ds:[ecx+68]            Turn Complete
+0045C514   mov ecx, dword ptr ds:[eax+3FC]           Waiting For Others
+0045C527   mov ecx, dword ptr ds:[eax+68]            Turn Complete
+0045CFDC   mov ecx, dword ptr ds:[eax+C4C]           Go onto the next turn
+00461B37   mov eax, dword ptr ds:[eax+C0]            Turn
+00461B45   mov eax, dword ptr ds:[ecx+C4]            Turns
+004682AC   mov eax, dword ptr ds:[ecx+E08]           Objective
+004683B4   mov eax, dword ptr ds:[edx+E08]           Objective
+00468497   mov eax, dword ptr ds:[ecx+E08]           Objective
+004684FE   mov eax, dword ptr ds:[edx+A28]           Explore
+00468513   mov eax, dword ptr ds:[ecx+A2C]           Discover
+0046852C   mov eax, dword ptr ds:[eax+A30]           Build
+00468570   mov eax, dword ptr ds:[ecx+A24]           Gov
+0046C169   mov eax, dword ptr ds:[edx+C04]           Switch to World Map
+0046C199   mov edx, dword ptr ds:[ecx+C68]           Zoom in
+0046C1C0   mov ecx, dword ptr ds:[eax+C6C]           Zoom out
+0046C1ED   mov eax, dword ptr ds:[edx+C70]           Standard zoom
+0046C21D   mov edx, dword ptr ds:[ecx+910]           Recenter map window here
+0046C244   mov ecx, dword ptr ds:[eax+914]           Recenter this window here
+0046C463   mov edx, dword ptr ds:[ecx+B18]           Go to nearest airbase.
+0046C487   mov ecx, dword ptr ds:[eax+8D4]           Activate units here|A
+0046C4BE   mov eax, dword ptr ds:[edx+DFC]           Edit Unit
+0046C4E1   mov edx, dword ptr ds:[ecx+104C]          Delete Unit
+0046C551   mov edx, dword ptr ds:[ecx+8E0]           Erase landmark
+0046C55F   mov ecx, dword ptr ds:[eax+8E4]           Name landmark
+0046C5FF   mov eax, dword ptr ds:[edx+894]           Zoom to BASE
+0046C666   mov eax, dword ptr ds:[edx+898]           Change Production
+0046C6B1   mov eax, dword ptr ds:[ecx+89C]           Hurry
+0046C750   mov eax, dword ptr ds:[ecx+8A0]           Set to EXPLORE
+0046C7A5   mov eax, dword ptr ds:[edx+8A4]           Set to DISCOVER
+0046C7F4   mov eax, dword ptr ds:[eax+8A8]           Set to BUILD
+0046C83F   mov eax, dword ptr ds:[ecx+8AC]           Set to CONQUER
+0046C89E   mov eax, dword ptr ds:[edx+8B0]           Set delivery route
+0046C8E9   mov ecx, dword ptr ds:[eax+8B4]           Move unit to here
+0046C94C   mov eax, dword ptr ds:[edx+8B8]           Patrol to here
+0046C9B1   mov ecx, dword ptr ds:[eax+8BC]           Bombing run to here
+0046C9FB   mov eax, dword ptr ds:[edx+8C0]           Airdrop here
+0046CAA1   mov edx, dword ptr ds:[ecx+8C8]           Long Range Fire here
+0046CB20   mov ecx, dword ptr ds:[eax+8CC]           Action...
+0046CB65   mov ecx, dword ptr ds:[eax+8D0]           Terraform...
+0046CB8F   mov eax, dword ptr ds:[edx+E1C]           Disband/Destruct|Shift+D
+0046CBB2   mov edx, dword ptr ds:[ecx+1098]          Destroy Enhancement|D
+0046CBEF   mov ecx, dword ptr ds:[eax+8D8]           Center on active unit|C
+0046CC1E   mov eax, dword ptr ds:[edx+8DC]           Find a unit to move|V
+0046CC8A   mov eax, dword ptr ds:[edx+8E0]           Activate unit here|A
+0046CC99   mov edx, dword ptr ds:[ecx+8E4]           Activate units here|A
+0046CCBD   mov ecx, dword ptr ds:[eax+8E8]           End the turn|Ctrl+ENTER
+0046CD13   mov edx, dword ptr ds:[ecx+8EC]           Rename landmark
+0046CD37   mov ecx, dword ptr ds:[eax+8F0]           Erase landmark
+0046CD58   mov eax, dword ptr ds:[edx+8F4]           Name landmark
+0046CD85   mov edx, dword ptr ds:[ecx+8F8]           Info on this square|Shift+Right
+0046CDA9   mov ecx, dword ptr ds:[eax+8FC]           Help
+0046F42A   mov eax, dword ptr ds:[ecx+668]           Patrol to
+0046F442   mov eax, dword ptr ds:[edx+6C4]           Group Move To
+0046F44F   mov eax, dword ptr ds:[eax+66C]           Move to
+0046F4B1   mov eax, dword ptr ds:[eax+670]           Dist
+0046F9A3   mov eax, dword ptr ds:[eax+400]           Battle Map
+0046F9B1   mov eax, dword ptr ds:[ecx+404]           Surveillance Map
+0046FB3B   mov eax, dword ptr ds:[eax+400]           Battle Map
+0046FB49   mov eax, dword ptr ds:[ecx+404]           Surveillance Map
+00470C0F   mov eax, dword ptr ds:[eax+78]            Planetary Scan
+00470C36   mov eax, dword ptr ds:[ecx+810]           Battle Plan
+00470C49   mov eax, dword ptr ds:[edx+74]            Mission Map
+00470D0C   mov eax, dword ptr ds:[ecx]               Mission Year
+00470E49   mov eax, dword ptr ds:[ecx+400]           Battle Map
+00470E57   mov eax, dword ptr ds:[edx+404]           Surveillance Map
+0047196C   mov edx, dword ptr ds:[ecx+1130]          Allied Objectives
+00471990   mov ecx, dword ptr ds:[eax+1134]          RETIRE ALL
+004719BA   mov eax, dword ptr ds:[edx+1138]          RETIRE ALL: Scenario Editor fuction; clears all player prototypes.
+00473473   mov eax, dword ptr ds:[ecx+A64]           CLOSE
+0047357C   mov eax, dword ptr ds:[eax+B60]           BACK
+004781E3   mov eax, dword ptr ds:[eax+9F0]           Contact
+0047829B   mov edx, dword ptr ds:[ecx+9F4]           Faction Profile
+00478315   mov edx, dword ptr ds:[ecx+E20]           Renounce Pact
+00478330   mov ecx, dword ptr ds:[eax+E24]           Demand Withdrawal
+00478367   mov eax, dword ptr ds:[edx+9F8]           Summon Planetary Council
+0047839C   mov edx, dword ptr ds:[ecx+9FC]           Toggle Chat Flag
+004783C0   mov ecx, dword ptr ds:[eax+A00]           Send Chat Message
+0047888C   mov eax, dword ptr ds:[eax+34C]           PACT
+004788A1   mov eax, dword ptr ds:[ecx+350]           TREATY
+004788B6   mov eax, dword ptr ds:[edx+354]           TRUCE
+004788DE   mov eax, dword ptr ds:[eax+A1C]           V'dtta
+0047890E   mov eax, dword ptr ds:[ecx+358]           VENDETTA
+0047893E   mov eax, dword ptr ds:[ecx+444]           PAUSED
+004789A6   mov eax, dword ptr ds:[eax+42C]           Upkeep
+00478A15   mov eax, dword ptr ds:[ecx+42C]           Upkeep
+00478B49   mov eax, dword ptr ds:[ecx+A14]           Pact
+00478B5B   mov eax, dword ptr ds:[edx+A10]           Treaty
+00478B6C   mov eax, dword ptr ds:[eax+A0C]           Truce
+00478B7E   mov eax, dword ptr ds:[ecx+A1C]           V'dtta
+00478D42   mov eax, dword ptr ds:[eax+7E8]           Council
+00478E91   mov eax, dword ptr ds:[ecx+410]           Upkeep
+0047909B   mov eax, dword ptr ds:[edx+40C]           Turn Clock
+004790DE   mov eax, dword ptr ds:[eax+988]           Clock
+0047910D   mov eax, dword ptr ds:[ecx+444]           PAUSED
+0047914C   mov eax, dword ptr ds:[edx+988]           Clock
+0047917A   mov eax, dword ptr ds:[eax+410]           Upkeep
+00479198   mov eax, dword ptr ds:[ecx+A04]           No Time Control
+00479727   mov eax, dword ptr ds:[eax+80C]           VOTES
+00479849   mov eax, dword ptr ds:[eax+9D0]           No Contacts
+0047A239   mov ecx, dword ptr ds:[eax+440]           Chat
+0047A2F5   mov eax, dword ptr ds:[edx+7E8]           Council
+0047A97F   mov eax, dword ptr ds:[edx+36C]           Close
+0047BC8C   mov ecx, dword ptr ds:[eax+B8C]           Female
+0047BC94   mov ecx, dword ptr ds:[eax+B88]           Male
+0047BCD8   mov ecx, dword ptr ds:[eax+2B8]           Name:
+0047BD03   mov ecx, dword ptr ds:[eax+2BC]           Formal:
+0047BD2E   mov ecx, dword ptr ds:[eax+2C0]           Noun:
+0047BD59   mov ecx, dword ptr ds:[eax+2C4]           Adjective:
+0047BD84   mov ecx, dword ptr ds:[eax+78C]           Title
+0047BDAF   mov ecx, dword ptr ds:[eax+790]           Description
+0047BDDA   mov ecx, dword ptr ds:[eax+794]           Gender
+0047C067   mov ecx, dword ptr ds:[eax+FE4]           Random
+0047C08D   mov ecx, dword ptr ds:[eax+FE4]           Random
+0047C0B3   mov ecx, dword ptr ds:[eax+FE4]           Random
+0047C0D9   mov ecx, dword ptr ds:[eax+FE4]           Random
+0047C0FF   mov ecx, dword ptr ds:[eax+FE4]           Random
+0047C125   mov ecx, dword ptr ds:[eax+FE4]           Random
+0047C1BD   mov ecx, dword ptr ds:[eax+B8C]           Female
+0047C5DD   mov ecx, dword ptr ds:[eax+FE4]           Random
+0047D39D   mov edx, dword ptr ds:[ecx+107C]          Zoom and Erase
+0047D3C0   mov ecx, dword ptr ds:[eax+FD8]           Load Map
+0047D3EA   mov eax, dword ptr ds:[edx+FDC]           Load Scenario
+0047D40A   mov edx, dword ptr ds:[ecx+FE0]           Load Game
+0047DAB0   mov edx, dword ptr ds:[ecx+FE4]           Random
+0047DBA9   mov eax, dword ptr ds:[edx+FE4]           Random
+0047DBC5   mov edx, dword ptr ds:[ecx+FE4]           Random
+0047E9B3   mov ecx, dword ptr ds:[eax+FE4]           Random
+0047ECE1   mov ecx, dword ptr ds:[eax+FE4]           Random
+0047F011   mov ecx, dword ptr ds:[eax+FE4]           Random
+0047F341   mov ecx, dword ptr ds:[eax+FE4]           Random
+0047F671   mov ecx, dword ptr ds:[eax+FE4]           Random
+0047F9B7   mov eax, dword ptr ds:[ecx+F9C]           CUSTOM GAME OPTIONS
+0047FB3F   mov eax, dword ptr ds:[ecx+10A4]          Simultaneous Moves
+00480083   mov eax, dword ptr ds:[edx+FE4]           Random
+004800A6   mov eax, dword ptr ds:[edx+FE4]           Random
+004803DF   mov eax, dword ptr ds:[ecx+414]           Players
+004808B9   mov ecx, dword ptr ds:[eax+1054]          MAKE NOT READY
+004808C8   mov eax, dword ptr ds:[edx+1050]          MAKE READY
+00480ACE   mov eax, dword ptr ds:[edx+FA4]           Global Difficulty Level
+00480BFA   mov eax, dword ptr ds:[ecx+100C]          Time Controls
+00480D25   mov eax, dword ptr ds:[edx+1078]          Type of Game
+00480D86   mov eax, dword ptr ds:[eax+107C]          New Game w/ Random Map
+00480DD9   mov eax, dword ptr ds:[ecx+1014]          SCENARIO
+00480E08   mov eax, dword ptr ds:[edx+1018]          SAVE
+00480E36   mov eax, dword ptr ds:[eax+10]            Map
+00480F17   mov eax, dword ptr ds:[edx+FAC]           Planet Size
+00481001   mov eax, dword ptr ds:[eax+FE4]           Random
+00481146   mov eax, dword ptr ds:[ecx+FB0]           Ocean Coverage
+004811A1   mov eax, dword ptr ds:[edx+1000]          MAP DEFINED
+004811B7   mov eax, dword ptr ds:[eax+FE4]           Random
+004812F7   mov eax, dword ptr ds:[edx+FB4]           Erosive Forces
+0048134C   mov eax, dword ptr ds:[eax+1000]          MAP DEFINED
+00481363   mov eax, dword ptr ds:[ecx+FE4]           RANDOM
+0048149C   mov eax, dword ptr ds:[ecx+FB8]           Native Life Forms
+004814F7   mov eax, dword ptr ds:[edx+1000]          MAP DEFINED
+0048150D   mov eax, dword ptr ds:[eax+FE4]           Random
+0048164D   mov eax, dword ptr ds:[edx+FBC]           Cloud Cover
+004816A2   mov eax, dword ptr ds:[eax+1000]          MAP DEFINED
+004816B9   mov eax, dword ptr ds:[ecx+FE4]           Random
+00481894   mov eax, dword ptr ds:[eax+113C]          Passwords Unsatisfied
+00481B73   mov eax, dword ptr ds:[eax+3F0]           Multiplayer Setup
+00481DBE   mov edx, dword ptr ds:[ecx+FE4]           Random
+00481F55   mov eax, dword ptr ds:[edx+FE4]           Random
+00482AD8   mov ecx, dword ptr ds:[eax+1058]          LAUNCH GAME
+00482AE7   mov eax, dword ptr ds:[edx+1050]          MAKE READY
+00482B73   mov eax, dword ptr ds:[eax+198]           Cancel
+00483A41   mov eax, dword ptr ds:[edx+874]           OUR RESEARCHERS HAVE MADE A BREAKTHROUGH!
+00483A4E   mov eax, dword ptr ds:[eax+878]           WE HAVE ACQUIRED TECHNOLOGY!
+00483AC5   mov eax, dword ptr ds:[edx+110]           Base Facilities
+00483B2C   mov eax, dword ptr ds:[ecx+130]           Technologies
+00483B9C   mov eax, dword ptr ds:[eax+EF0]           UNIT ADVANCES
+00483C08   mov eax, dword ptr ds:[edx+EF4]           MISCELLANEOUS
+00484560   mov ecx, dword ptr ds:[eax+194]           OK
+004854F6   mov eax, dword ptr ds:[edx+4DC]           FREE
+0048573E   mov eax, dword ptr ds:[edx+460]           3+ Energy per Square
+004857A0   mov eax, dword ptr ds:[ecx+45C]           3+ Minerals per Square
+00485809   mov eax, dword ptr ds:[eax+458]           3+ Nutrient per Square
+00485B16   mov eax, dword ptr ds:[edx+310]           Psi
+00485C04   mov eax, dword ptr ds:[ecx+310]           Psi
+00485C5D   mov eax, dword ptr ds:[ecx+200]           Equipment
+00485D67   mov eax, dword ptr ds:[ecx+13C]           Reactor
+00485E34   mov eax, dword ptr ds:[edx+314]           Unit
+00486B25   mov eax, dword ptr ds:[eax+458]           3+ Nutrient per Square
+00486B8B   mov eax, dword ptr ds:[ecx+45C]           3+ Minerals per Square
+00486BFF   mov eax, dword ptr ds:[edx+460]           3+ Energy per Square
+00486C72   mov eax, dword ptr ds:[ecx+314]           Unit
+00486D12   mov eax, dword ptr ds:[ecx+13C]           Reactor
+00486E84   mov eax, dword ptr ds:[eax+154]           Defense
+00486F34   mov eax, dword ptr ds:[edx+140]           Chassis
+00487003   mov eax, dword ptr ds:[ecx+2CC]           Project
+00487011   mov eax, dword ptr ds:[edx+26C]           Facility
+00487183   mov eax, dword ptr ds:[ecx+270]           Unit Abil
+00487235   mov eax, dword ptr ds:[edx+4D0]           Citizen
+004872CF   mov eax, dword ptr ds:[eax+274]           Tech
+0048904A   mov eax, dword ptr ds:[eax+116C]          The Original SMAC Factions
+004890DF   mov eax, dword ptr ds:[ecx+1170]          The New Factions
+00489178   mov eax, dword ptr ds:[eax+1174]          Mix Old and New Factions
+004892B0   mov eax, dword ptr ds:[edx+1178]          CHANGE NAME
+0048933D   mov eax, dword ptr ds:[eax+117C]          QUOTE
+0048934B   mov eax, dword ptr ds:[ecx+ABC]           INFO
+004893D8   mov eax, dword ptr ds:[eax+198]           Cancel
+0048946C   mov eax, dword ptr ds:[eax+194]           OK
+00489504   mov eax, dword ptr ds:[eax+1180]          PLAY RANDOM FACTION
+0048958B   mov eax, dword ptr ds:[eax+1184]          PLAY SELECTED FACTION
+004896DD   mov eax, dword ptr ds:[ecx+1168]          CHOOSE YOUR FACTIONS
+00489EE9   mov eax, dword ptr ds:[eax+1188]          RANDOM
+0048A0F4   mov eax, dword ptr ds:[edx+1188]          RANDOM
+0048A31B   mov eax, dword ptr ds:[eax+1188]          RANDOM
+0048C9E3   mov eax, dword ptr ds:[edx+B0]            Zoom to Base Control
+0048CA03   mov edx, dword ptr ds:[ecx+B4]            Proceed
+0048CA9C   mov ecx, dword ptr ds:[eax+7AC]           Have Rioters Nerve Stapled (Atrocity)
+0048CACA   mov eax, dword ptr ds:[edx+6EC]           Don't Show As Popup
+0048CD7E   mov dword ptr ds:[90E934], 1              Zoom to Base Control
+0048D9B5   mov eax, dword ptr ds:[edx+BB8]           Preferences
+0048DA2F   mov eax, dword ptr ds:[eax+BBC]           Adv. Preferences
+0048DAB3   mov eax, dword ptr ds:[eax+BC0]           Warning Preferences
+0048DB37   mov eax, dword ptr ds:[eax+BC4]           Automation Preferences
+0048DBBB   mov eax, dword ptr ds:[eax+BC8]           Audio/Visual Preferences
+0048DC3F   mov eax, dword ptr ds:[eax+10D4]          Map Preferences
+0048DCC3   mov eax, dword ptr ds:[eax+10D8]          Gamma Correction
+0048F5D3   mov eax, dword ptr ds:[edx+10E0]          Main Off
+0048F622   mov eax, dword ptr ds:[edx+10E8]          Voice Off
+0048F670   mov eax, dword ptr ds:[edx+10F0]          SFX Off
+0048F6C1   mov eax, dword ptr ds:[edx+10F8]          Music Off
+0048F7F6   mov edx, dword ptr ds:[ecx+10DC]          Restore Defaults
+0048F822   mov eax, dword ptr ds:[eax+194]           Ok
+0048F88A   mov eax, dword ptr ds:[ecx+198]           Cancel
+0048F9BE   mov edx, dword ptr ds:[ecx+1100]          More
+004901BC   mov ecx, dword ptr ds:[eax+1100]          More
+0049020D   mov eax, dword ptr ds:[eax+A60]           Back
+004918EC   mov edx, dword ptr ds:[ecx+10E8]          Voice Off
+004918FA   mov ecx, dword ptr ds:[eax+10EC]          Voice On
+0049192C   mov eax, dword ptr ds:[edx+10F0]          SFX Off
+0049193B   mov edx, dword ptr ds:[ecx+10F4]          SFX On
+0049196C   mov ecx, dword ptr ds:[eax+10F8]          Music Off
+0049197B   mov eax, dword ptr ds:[edx+10FC]          Music On
+004919AD   mov edx, dword ptr ds:[ecx+10E0]          Main Off
+004919BB   mov ecx, dword ptr ds:[eax+10E4]          Main On
+00492DDB   mov eax, dword ptr ds:[edx+2E4]           Proto
+00493289   mov eax, dword ptr ds:[eax+10C]           No Minerals
+00493447   mov eax, dword ptr ds:[eax+C4]            turns
+004935B4   mov eax, dword ptr ds:[eax+230]           Relocate
+0049373F   push dword ptr ds:[edx+90]                Energy
+0049376A   push dword ptr ds:[edx+264]               per turn
+004937A5   mov eax, dword ptr ds:[edx+10C]           No Minerals
+0049381B   mov eax, dword ptr ds:[eax+C4]            turns
+00493FC6   mov eax, dword ptr ds:[edx+1148]          Set production
+00493FE6   mov edx, dword ptr ds:[ecx+1144]          Add to queue
+00494039   mov ecx, dword ptr ds:[eax+E40]           Obsolete
+0049406B   mov eax, dword ptr ds:[edx+1140]          Cancel all obsolete
+0049408B   mov edx, dword ptr ds:[ecx+8FC]           Help
+00494B31   mov edx, dword ptr ds:[ecx+198]           OK
+00494BB4   mov eax, dword ptr ds:[edx+728]           Delete
+00494C12   mov ecx, dword ptr ds:[eax+72C]           Insert
+00494C7A   mov eax, dword ptr ds:[ecx+FE8]           Replace
+00494CE0   mov edx, dword ptr ds:[ecx+194]           OK
+00494D78   mov ecx, dword ptr ds:[eax+4F4]           Reset
+00494DDE   mov edx, dword ptr ds:[ecx+194]           Ok
+00494E44   mov eax, dword ptr ds:[edx+9B4]           Workshop
+00494EAF   mov ecx, dword ptr ds:[eax+19C]           Help
+00495574   mov eax, dword ptr ds:[ecx+A64]           CLOSE
+0049561E   mov eax, dword ptr ds:[eax+B60]           BACK
+00496222   mov eax, dword ptr ds:[ecx+1090]          Alpha Centauri Rating
+00496935   call terranx_.004AD6B0                    Source Instruction Handler
+00496D3E   call terranx_.00498B30                    LABORATORY SUMMARY
+00496D53   call terranx_.0049BCD0                    FACTION ECONOMIC SURVEY
+00496D68   call terranx_.0049D540                    BASE OPERATIONS
+00496D7D   call terranx_.0049EB10                    SECRET PROJECT REPORTS
+00496D92   call terranx_.0049F350                    SATTELITE SURVEY
+00496DA7   call terranx_.004A08E0                    SECURITY NEXUS
+00496DBC   call terranx_.004A1140                    ALPHA CENTAURI SCORE
+00496DD1   call terranx_.004A2210                    INTELLIGENCE FILES
+00496EEF   call terranx_.00498B30                    LABORATORY SUMMARY
+00497B79   mov eax, dword ptr ds:[edx+894]           Zoom to BASE
+00497B99   mov edx, dword ptr ds:[ecx+910]           Recenter map window here
+00497BCA   mov ecx, dword ptr ds:[eax+898]           Change production
+00497BF4   mov eax, dword ptr ds:[edx+89C]           Hurry
+00497C21   mov edx, dword ptr ds:[ecx+8A0]           Set to EXPLORE
+00497C45   mov ecx, dword ptr ds:[eax+8A4]           Set to DISCOVER
+00497C6F   mov eax, dword ptr ds:[edx+8A8]           Set to BUILD
+00497C8F   mov edx, dword ptr ds:[ecx+8AC]           Set to CONQUER
+00497CB3   mov ecx, dword ptr ds:[eax+BFC]           Governor Off
+00497CDD   mov eax, dword ptr ds:[edx+A54]           Advanced Governor Settings
+00498DD8   mov eax, dword ptr ds:[ecx+AC4]           LABORATORY SUMMARY
+00498E77   mov eax, dword ptr ds:[ecx+254]           RESEARCHING
+0049A3AA   mov eax, dword ptr ds:[ecx+234]           Reactors
+0049A51A   mov eax, dword ptr ds:[edx+120]           Chassis Types
+0049A6EB   mov eax, dword ptr ds:[edx+124]           Weapons
+0049A801   mov eax, dword ptr ds:[edx+310]           Psi
+0049A83D   mov eax, dword ptr ds:[ecx+200]           Equipment
+0049A8FF   mov eax, dword ptr ds:[edx+128]           Defenses
+0049AA1A   mov eax, dword ptr ds:[edx+310]           Psi
+0049AB03   mov eax, dword ptr ds:[eax+12C]           Abilities
+0049AC6F   mov eax, dword ptr ds:[ecx+318]           Unit Types
+0049ADBD   mov eax, dword ptr ds:[edx+110]           Base Facilities
+0049AEE5   mov eax, dword ptr ds:[eax+4DC]           FREE
+0049AFB2   mov eax, dword ptr ds:[eax+118]           Socio/Economic Model
+0049B0B5   mov eax, dword ptr ds:[eax+4CC]           Citizens
+0049BEB8   mov eax, dword ptr ds:[edx+A98]           BUDGET
+0049BF44   mov eax, dword ptr ds:[edx+B9C]           EXPENDITURES
+0049BFF5   mov eax, dword ptr ds:[eax+E4]            ENERGY RESERVES
+0049C148   mov eax, dword ptr ds:[ecx+5F4]           Total Income
+0049C289   mov eax, dword ptr ds:[eax+5F8]           Total Maintaince
+0049C3D5   mov eax, dword ptr ds:[edx+5FC]           Total Loan
+0049C548   mov eax, dword ptr ds:[edx+1194]          Shutdown
+0049C555   mov eax, dword ptr ds:[eax+708]           Sanctions
+0049C630   mov eax, dword ptr ds:[ecx+71C]           TURNS TO GO:
+0049C869   mov eax, dword ptr ds:[ecx+604]           Suspended
+0049C8B0   mov eax, dword ptr ds:[edx+708]           Sancations
+0049CA65   mov eax, dword ptr ds:[ecx+EFC]           Net Income
+0049CB3C   mov eax, dword ptr ds:[edx+5EC]           /year
+0049CD6F   mov eax, dword ptr ds:[eax+A98]           BUDGET
+0049CF9A   mov eax, dword ptr ds:[ecx+A9C]           TOTAL COST
+0049D0D6   mov eax, dword ptr ds:[eax+160]           Cost
+0049D31B   mov eax, dword ptr ds:[ecx+A9C]           TOTAL COST
+0049D815   mov eax, dword ptr ds:[ecx+ACC]           BASE OPERATIONS
+0049D88F   mov eax, dword ptr ds:[edx+A0]            Minerals
+0049D89C   mov eax, dword ptr ds:[eax+A4]            Nutrient
+0049D8AA   mov eax, dword ptr ds:[ecx+E4]            ENERGY RESERVES
+0049D8B8   mov eax, dword ptr ds:[edx+AAC]           LAB OUTPUT
+0049D8C5   mov eax, dword ptr ds:[eax+AB0]           PSYCH OUTPUT
+0049D8D3   mov eax, dword ptr ds:[ecx+AB4]           POPULATION
+0049D8E1   mov eax, dword ptr ds:[edx+FC]            GARRISON
+0049D8EE   mov eax, dword ptr ds:[eax+AB8]           INFRASTRUCTURE
+0049DDF2   mov eax, dword ptr ds:[edx+E08]           Objective
+0049DE6C   mov edi, dword ptr ds:[eax+edi*4+824]     EXPLORE-CONQUER
+0049DE8E   mov eax, dword ptr ds:[ecx+BFC]           Governor Off
+0049E282   mov eax, dword ptr ds:[edx+10C]           Hurry
+0049E2AB   mov eax, dword ptr ds:[eax+C4]            turns
+0049EC2F   mov eax, dword ptr ds:[ecx+AD0]           SECRET PROJECT REPORTS
+0049F22A   mov eax, dword ptr ds:[eax+6BC]           Under Construction
+0049F423   mov eax, dword ptr ds:[edx+AD4]           SATELLITE SURVEY
+0049F9D9   push dword ptr ds:[edx+CC4]               [Orbital Spaceflight] not yet achieved.
+004A09E5   mov eax, dword ptr ds:[eax+AD8]           SECURITY NEXUS
+004A0FA7   mov eax, dword ptr ds:[eax+614]           active
+004A1035   mov eax, dword ptr ds:[eax+618]           Prod
+004A10B2   mov eax, dword ptr ds:[edx+61C]           Lost
+004A1238   mov eax, dword ptr ds:[eax+ADC]           ALPHA CENTAURI SCORE
+004A13A5   mov eax, dword ptr ds:[ecx+E0C]           Objectives
+004A1456   mov eax, dword ptr ds:[ecx+1030]          Allied Objectives
+004A1595   mov eax, dword ptr ds:[edx+E70]           Diplomatic Victory
+004A15B7   mov eax, dword ptr ds:[eax+E88]           Economic Victory
+004A15EF   mov eax, dword ptr ds:[eax+1198]          Progenitor Victory
+004A160B   mov eax, dword ptr ds:[ecx+E10]           Victory
+004A170F   mov eax, dword ptr ds:[ecx+908]           Abundant Life Forms
+004A174C   mov eax, dword ptr ds:[edx+904]           Rare Life Forms
+004A18AD   mov eax, dword ptr ds:[ecx+1044]          Iron Man
+004A19A5   mov eax, dword ptr ds:[eax+6C0]           Alpha Centauri Score
+004A1AFA   mov eax, dword ptr ds:[ecx+E10]           Victory
+004A1B29   mov eax, dword ptr ds:[edx+E14]           Defeat
+004A1BEA   mov eax, dword ptr ds:[eax+101C]          wins
+004A1CF0   mov eax, dword ptr ds:[edx+102C]          Draw
+004A1D1B   mov eax, dword ptr ds:[eax+E10]           Victory
+004A1D4C   mov eax, dword ptr ds:[ecx+E14]           Defeat
+004A1DE0   mov eax, dword ptr ds:[ecx+101C]          wins
+004A1E39   mov eax, dword ptr ds:[ecx+E10]           Victory
+004A1E59   mov eax, dword ptr ds:[eax+E14]           Defeat
+004A2194   mov eax, dword ptr ds:[edx+1060]          CHEATED
+004A2308   mov eax, dword ptr ds:[ecx+AE0]           INTELLIGENCE FILES
+004A24CB   mov eax, dword ptr ds:[eax+2D0]           Of the
+004A25B1   mov eax, dword ptr ds:[eax+E98]           INFILTRATION
+004A262E   mov eax, dword ptr ds:[eax+358]           VENDETTA
+004A2640   mov eax, dword ptr ds:[ecx+34C]           PACT
+004A2652   mov eax, dword ptr ds:[edx+350]           TREATY
+004A2663   mov eax, dword ptr ds:[eax+354]           TRUCE
+004A26F6   mov eax, dword ptr ds:[eax+E94]           DIPLOMATIC STATUS
+004A27EA   mov eax, dword ptr ds:[edx+5A0]           Personality
+004A2865   mov eax, dword ptr ds:[eax+5A4]           Aggressive
+004A2875   mov eax, dword ptr ds:[ecx+5AC]           Pacifist
+004A2883   mov eax, dword ptr ds:[edx+5A8]           Erratic
+004A2919   mov eax, dword ptr ds:[edx+5B0]           Interests
+004A2998   mov eax, dword ptr ds:[eax+824]           EXPLORE
+004A29E2   mov eax, dword ptr ds:[ecx+828]           DISCOVER
+004A2A36   mov eax, dword ptr ds:[edx+82C]           BUILD
+004A2A84   mov eax, dword ptr ds:[eax+830]           CONQUER
+004A2AFF   mov eax, dword ptr ds:[ecx+5C0]           Agenda
+004A2CCE   mov eax, dword ptr ds:[ecx+5C4]           Headquarters
+004A2DA7   mov eax, dword ptr ds:[eax+E4]            ENERGY RESERVES
+004A2EAB   mov eax, dword ptr ds:[ecx+254]           RESEARCHING
+004A2F78   mov eax, dword ptr ds:[edx+F00]           has sufficient resources to conduct a leveraged buyout of all remaining bases!  The deal will be finalized in
+004A3207   mov eax, dword ptr ds:[eax+358]           VENDETTA
+004A3236   mov eax, dword ptr ds:[ecx+5C8]           on
+004A3270   mov eax, dword ptr ds:[eax+43C]           of
+004A3285   mov eax, dword ptr ds:[ecx+350]           TREATY
+004A329E   mov eax, dword ptr ds:[eax+5D0]           INFORMAL
+004A32CD   mov eax, dword ptr ds:[ecx+354]           TRUCE
+004A3301   mov eax, dword ptr ds:[edx+5CC]           with
+004A338F   mov eax, dword ptr ds:[ecx+2D0]           Of the
+004A4006   call terranx_.004AB600                    SECURITY NEXUS
+004A400F   call terranx_.004ABE70                    ALPHA CENTAURI SCORE
+004A42CC   mov eax, dword ptr ds:[edx+eax]           Mission Year
+004A43E9   mov eax, dword ptr ds:[ecx+86C]           DATALINKS
+004A44A7   mov eax, dword ptr ds:[ecx+A64]           CLOSE
+004A458E   mov eax, dword ptr ds:[ecx+5D4]           TECHNOLOGY
+004A464A   mov eax, dword ptr ds:[eax+5D8]           BASES
+004A476A   mov eax, dword ptr ds:[eax+7B8]           GOVERNOR
+004A4821   mov eax, dword ptr ds:[eax+AA8]           BEST BASES
+004A494E   mov eax, dword ptr ds:[edx+BA0]           PRODUCTION
+004A4A20   mov eax, dword ptr ds:[ecx+BA4]           CITIZENS
+004A4AF4   mov eax, dword ptr ds:[ecx+FC]            GARRISON
+004A4C5F   mov eax, dword ptr ds:[eax+CB0]           SATELLITE SUMMARY
+004A4D24   mov eax, dword ptr ds:[ecx+CB4]           ORBITAL ATTACK VIEW
+004A4E28   mov eax, dword ptr ds:[ecx+CB8]           ATTACK!
+004A4F2B   mov eax, dword ptr ds:[ecx+BA8]           SELECT ALL
+004A4FEA   mov eax, dword ptr ds:[eax+BAC]           SET TO
+004A5019   mov eax, dword ptr ds:[ecx+824]           EXPLORE
+004A50D8   mov eax, dword ptr ds:[eax+BAC]           SET TO
+004A5107   mov eax, dword ptr ds:[ecx+828]           DISCOVER
+004A51C6   mov eax, dword ptr ds:[eax+BAC]           SET TO
+004A51F5   mov eax, dword ptr ds:[ecx+82C]           BUILD
+004A52B4   mov eax, dword ptr ds:[eax+BAC]           SET TO
+004A52E3   mov eax, dword ptr ds:[ecx+830]           CONQUER
+004A53A2   mov eax, dword ptr ds:[eax+BB0]           ADVANCED SETTINGS
+004A545C   mov eax, dword ptr ds:[eax+BB4]           TURN GOVERNOR OFF
+004A552D   mov eax, dword ptr ds:[eax+BA8]           SELECT ALL
+004A55E7   mov eax, dword ptr ds:[eax+EEC]           AUTOMATE UNITS
+004A56A1   mov eax, dword ptr ds:[eax+B6C]           No time control
+004A5A6E   mov eax, dword ptr ds:[eax+2D0]           Of The labels.txt
+004A72C0   lea eax, dword ptr ss:[ebp+ebx*4-280]     Net
+004A72D4   mov eax, dword ptr ds:[ecx+eax*4+9D4]     E-C (Explore-Conquer)
+004A74EE   mov eax, dword ptr ds:[edx+5EC]           /year
+004A76A4   mov eax, dword ptr ds:[eax+AC4]           LABORATORY SUMMARY
+004A76EF   mov eax, dword ptr ds:[ecx+B68]           M.Y.
+004A77AD   mov eax, dword ptr ds:[edx+5E0]           TECH COST
+004A7845   mov eax, dword ptr ds:[eax+5E4]           TECH ACCUMULATED
+004A7946   mov eax, dword ptr ds:[eax+5E8]           TECH PER TURN
+004A7BFB   mov eax, dword ptr ds:[eax+B00]           TECH PROGRESS
+004A7E81   mov eax, dword ptr ds:[ecx+824]           EXPLORE
+004A8023   mov eax, dword ptr ds:[edx+828]           DISCOVER
+004A81BF   mov eax, dword ptr ds:[eax+82C]           BUILD
+004A8357   mov eax, dword ptr ds:[ecx+830]           CONQUER
+004A8572   mov eax, dword ptr ds:[edx+2F8]           BASE
+004A85A5   mov eax, dword ptr ds:[eax+B98]           EXPENDITURES
+004A8840   mov eax, dword ptr ds:[ecx+5EC]           /year
+004A8A06   mov eax, dword ptr ds:[eax+AC8]           ENERGY ALLOCATION
+004A8A51   mov eax, dword ptr ds:[ecx+B68]           M.Y.
+004A8B0F   mov eax, dword ptr ds:[edx+E4]            ENERGY RESERVES
+004A8C5A   mov eax, dword ptr ds:[eax+F08]           MAINTENANCE COSTS
+004A8EF7   mov eax, dword ptr ds:[eax+5EC]           /year
+004A922F   mov eax, dword ptr ds:[eax+A0]            Minerals
+004A932B   mov eax, dword ptr ds:[edx+A4]            Nutrient
+004A9421   mov eax, dword ptr ds:[ecx+E4]            /year
+004A950F   mov eax, dword ptr ds:[ecx+AAC]           LAB OUTPUT
+004A95FD   mov eax, dword ptr ds:[ecx+AB0]           PSYCH OUTPUT
+004A96EB   mov eax, dword ptr ds:[ecx+AB4]           POPULATION
+004A97D7   mov eax, dword ptr ds:[ecx+FC]            GARRISON
+004A9927   mov eax, dword ptr ds:[edx+AB8]           INFRASTRUCTURE
+004A9C3A   mov eax, dword ptr ds:[eax+ACC]           BASE OPERATIONS
+004A9C85   mov eax, dword ptr ds:[ecx+B68]           M.Y.
+004A9D43   mov eax, dword ptr ds:[edx+E4]            /year
+004A9EFF   mov eax, dword ptr ds:[edx+F0C]           BASE LOCATOR
+004AA252   mov eax, dword ptr ds:[edx+CA8]           PROJECT DESCRIPTION
+004AA40F   mov eax, dword ptr ds:[eax+CAC]           Select a Secret Project for more information.
+004AA534   mov eax, dword ptr ds:[edx+AD0]           SECRET PROJECT REPORTS
+004AA583   mov eax, dword ptr ds:[eax+B68]           M.Y.
+004AA74C   mov eax, dword ptr ds:[edx+F0C]           BASE LOCATOR
+004AAC4D   mov eax, dword ptr ds:[edx+F18]           SELECT FACTION TARGET
+004AAE6E   mov eax, dword ptr ds:[eax+AD4]           SATELLITE SURVEY
+004AAEB9   mov eax, dword ptr ds:[ecx+B68]           M.Y.
+004AB222   mov eax, dword ptr ds:[eax+F1C]           SELECT SATELLITE TARGET
+004AB70B   mov eax, dword ptr ds:[edx+E28]           UNIT TYPES
+004AB916   mov eax, dword ptr ds:[edx+eax*4+E2C]     Land Units, Naval Units, Air Units, Non-Combat Units
+004ABB80   mov eax, dword ptr ds:[eax+AD8]           SECURITY NEXUS
+004ABBCB   mov eax, dword ptr ds:[ecx+B68]           M.Y.
+004ABD79   mov eax, dword ptr ds:[edx+EEC]           AUTOMATE UNITS
+004ABFB3   mov eax, dword ptr ds:[eax+ADC]           ALPHA CENTAURI SCORE
+004ABFFE   mov eax, dword ptr ds:[ecx+B68]           M.Y.
+004AC248   mov eax, dword ptr ds:[ecx+5D4]           TECHNOLOGY
+004AC56B   mov eax, dword ptr ds:[eax+AE0]           INTELLIGENCE FILES
+004AC5B6   mov eax, dword ptr ds:[ecx+B68]           M.Y.
+004AC6BB   mov eax, dword ptr ds:[eax+5D8]           BASES
+004AF285   mov eax, dword ptr ds:[eax+114]           Society
+004AFBDC   mov eax, dword ptr ds:[ecx+AEC]           SOCIAL ENGINEERING
+004AFD58   mov eax, dword ptr ds:[edx+EFC]           Net Income
+004AFE07   mov eax, dword ptr ds:[edx+258]           Breakthroughs
+004AFE6F   mov eax, dword ptr ds:[eax+C4]            turns
+004B0042   mov eax, dword ptr ds:[eax+F0]            Labs
+004B0138   mov eax, dword ptr ds:[ecx+F0]            Labs
+004B01B7   mov eax, dword ptr ds:[ecx+2A4]           Econ
+004B024F   mov eax, dword ptr ds:[ecx+578]           Upheaval Refund
+004B02C5   mov eax, dword ptr ds:[ecx+57C]           Credits
+004B0333   mov eax, dword ptr ds:[ecx+574]           Upheaval Cost
+004B0396   mov eax, dword ptr ds:[ecx+57C]           Credits
+004B0509   mov ecx, dword ptr ds:[eax+B90]           Social Effects
+004B0983   mov eax, dword ptr ds:[eax+5B8]           Economy
+004B0BCE   mov eax, dword ptr ds:[ecx+F0]            Labs
+004B0E1E   mov eax, dword ptr ds:[ecx+4F8]           Psych
+004B1143   mov eax, dword ptr ds:[edx+B94]           FACTION POWER
+004B1C38   mov eax, dword ptr ds:[edx+D20]           FACTION: Shows the special strengths and weaknesses of your faction.
+004B1C8D   mov eax, dword ptr ds:[edx+CF0]           Use these buttons to engineer your society.^You can earn new buttons through research.^See DATALINKS
+004B225C   mov edx, dword ptr ds:[ecx+D24]           ECON: Use to increase/decrease the^% of your energy used for wealth creation.
+004B22CC   mov edx, dword ptr ds:[ecx+D28]           LABS: Use to increase/decrease the^% of your energy used for research.
+004B233C   mov edx, dword ptr ds:[ecx+D2C]           PSYCH: Use to increase/decrease the^% of your energy used for quality of life.
+004B23AB   mov ecx, dword ptr ds:[eax+D1C]           EFFECTS: Shows the effects of your social choices and faction power.
+004B347A   mov edx, dword ptr ds:[ecx+CF0]           Use these buttons to engineer your society.^You can earn new buttons through research.^See DATALINKS
+004B35D8   mov eax, dword ptr ds:[edx+ecx+CF4]       ECONOMY: + increases your energy production – RESEARCH: + speeds technological research
+004B363C   mov eax, dword ptr ds:[ecx+198]           Cancel
+004B36E1   mov eax, dword ptr ds:[eax+4F4]           Reset
+004B3765   mov ecx, dword ptr ds:[eax+D34]           Reverts to the state at which you arrived on this screen.
+004B378B   mov eax, dword ptr ds:[edx+194]           OK
+004B392B   mov edx, dword ptr ds:[ecx+D24]           ECON: Use to increase/decrease the^% of your energy used for wealth creation.
+004B39AD   mov edx, dword ptr ds:[ecx+D24]           ECON: Use to increase/decrease the^% of your energy used for wealth creation.
+004B3A29   mov edx, dword ptr ds:[ecx+D28]           LABS: Use to increase/decrease the^% of your energy used for research.
+004B3AAB   mov edx, dword ptr ds:[ecx+D28]           LABS: Use to increase/decrease the^% of your energy used for research.
+004B3B27   mov edx, dword ptr ds:[ecx+D2C]           PSYCH: Use to increase/decrease the^% of your energy used for quality of life.
+004B3BA9   mov edx, dword ptr ds:[ecx+D2C]           PSYCH: Use to increase/decrease the^% of your energy used for quality of life.
+004B4464   mov eax, dword ptr ds:[ecx+6F0]           Bomb $BASENAME0
+004B44E7   mov eax, dword ptr ds:[ecx+6F4]           On Alert
+004B4515   mov eax, dword ptr ds:[edx+eax*4+62C]     Automatic, Automatic Roads, Automatic Tubes, Autoimprove Base
+004B4523   mov eax, dword ptr ds:[eax+62C]           Automatic
+004B4599   mov eax, dword ptr ds:[ecx+65C]           Patrol
+004B461C   mov eax, dword ptr ds:[eax+660]           to
+004B471F   push dword ptr ds:[ecx+6C8]               from
+004B47C3   push dword ptr ds:[ecx+5EC]               /year
+004B48A8   mov eax, dword ptr ds:[edx+664]           then
+004B4A3E   mov eax, dword ptr ds:[eax+6B4]           Bombardment
+004B4A50   mov eax, dword ptr ds:[ecx+6F8]           Air-to-Air Duel
+004B4A62   mov eax, dword ptr ds:[edx+6FC]           Surface-to-Air Duel
+004B4A73   mov eax, dword ptr ds:[eax+6B8]           Artillery Duel
+004B4A9E   mov eax, dword ptr ds:[ecx+250]           Battle Report
+004B4AB1   mov eax, dword ptr ds:[edx+8C]            Mission Status
+004B4AFD   mov eax, dword ptr ds:[eax+C]             Viewing
+004B4B2B   mov eax, dword ptr ds:[ecx+8]             Moving
+004B5209    push dword ptr ds:[eax+308]                Independent
+004B527C    push dword ptr ds:[eax+11AC]            Recieves support
+004B52FD   mov eax, dword ptr ds:[eax+9E4]           ALREADY MOVED
+004B5364   mov eax, dword ptr ds:[eax+1C]            Moves
+004B549F   mov eax, dword ptr ds:[ecx+30C]           Fuel
+004B5775   mov eax, dword ptr ds:[edx+360]           Cargo
+004B5856   mov eax, dword ptr ds:[edx+628]           Damaged
+004B5B69   mov eax, dword ptr ds:[eax+1048]          Desig. Defender
+004B5C97   mov eax, dword ptr ds:[ecx+71C]           TURNS TO GO
+004B60C6   mov eax, dword ptr ds:[edx+5C4]           Headquarters
+004B60DD   mov eax, dword ptr ds:[eax+2F0]           Outpost
+004B60F6   mov eax, dword ptr ds:[edx+2F4]           Base
+004B6103   mov eax, dword ptr ds:[eax+570]           Colony
+004B620B   mov eax, dword ptr ds:[ecx+B04]           DRONE RIOTS
+004B6279   mov eax, dword ptr ds:[ecx+B08]           NERVE STAPLED
+004B6371   mov eax, dword ptr ds:[eax+798]           Producing
+004B6B03   mov eax, dword ptr ds:[edx+300]           Unexplored
+004B6D72   mov eax, dword ptr ds:[ecx+FC4]           With Farm
+004B6F3F   mov eax, dword ptr ds:[edx+FC8]           With Mine
+004B70F1   mov eax, dword ptr ds:[eax+FCC]           With Solar
+004B71FD   mov eax, dword ptr ds:[edx+564]           Ocean Shelf
+004B720A   mov eax, dword ptr ds:[eax+304]           Ocean
+004B7218   mov eax, dword ptr ds:[ecx+568]           Ocean Trench
+004B7285   mov eax, dword ptr ds:[ecx+2C]            Elev
+004B7290   mov eax, dword ptr ds:[edx+30]            Depth
+004B72FB   mov eax, dword ptr ds:[eax+34]            m
+004B73B4   mov eax, dword ptr ds:[edx+7FC]           Endangered
+004B7451   mov eax, dword ptr ds:[eax+7FC]           Endangered
+004B74FF   mov ecx, dword ptr ds:[edx+ecx*4+164]     Flat, Rolling, Rocky
+004B7588   mov eax, dword ptr ds:[edx+ecx*4+50]      Arid, Moist, Rainy
+004B793F   mov eax, dword ptr ds:[eax+3A8]           River
+004B79AF   mov eax, dword ptr ds:[eax+21C]           Xenofungus
+004B79E8   mov eax, dword ptr ds:[ecx+48C]           Forest
+004B7BAD   mov eax, dword ptr ds:[edx+398]           Sea Fungus
+004B7C50   mov eax, dword ptr ds:[edx+eax*4+16C]     Rocky
+004B7C84   mov eax, dword ptr ds:[eax+17C]           bonus
+004B7E0A   mov eax, dword ptr ds:[ecx+238]           Monolith
+004B85F0   mov eax, dword ptr ds:[ecx+C4]            turns
+004B85FE   mov eax, dword ptr ds:[edx+C0]            turn
+004B90D9   mov edx, dword ptr ds:[ecx+FEC]           Feature Mode
+004B90FC   mov ecx, dword ptr ds:[eax+FF0]           Resource Mode
+004B9126   mov eax, dword ptr ds:[edx+FF4]           Consult Datalinks
+004B92A7   mov ecx, dword ptr ds:[eax+894]           Zoom to BASE
+004B930D   mov ecx, dword ptr ds:[eax+898]           Change production
+004B9361   mov eax, dword ptr ds:[edx+89C]           hurry
+004B93F5   mov eax, dword ptr ds:[ecx+8A0]           Set to EXPLORE
+004B9449   mov eax, dword ptr ds:[edx+8A4]           Set to DISCOVER
+004B9497   mov eax, dword ptr ds:[eax+8A8]           Set to BUILD
+004B94E1   mov eax, dword ptr ds:[ecx+8AC]           Set to CONQUER
+004B9517   mov ecx, dword ptr ds:[eax+958]           Activate unit
+004B9541   mov eax, dword ptr ds:[edx+112C]          Select unit
+004B956A   mov edx, dword ptr ds:[ecx+DFC]           Edit Unit
+004B959B   mov ecx, dword ptr ds:[eax+8FC]           Help
+004BE141   mov edx, dword ptr ds:[ecx+36C]           Close
+004BE161   mov ecx, dword ptr ds:[eax+3B0]           Continue
+004BE185   mov eax, dword ptr ds:[edx+3AC]           End Tour
+004BE45F   mov edx, dword ptr ds:[ecx+36C]           Close
+004BE47F   mov ecx, dword ptr ds:[eax+3B0]           Continue
+004BE4A3   mov eax, dword ptr ds:[edx+3AC]           End Tour
+004C3B43   mov ecx, dword ptr ds:[eax+C00]           Switch to Detail Map
+004C3B7E   mov eax, dword ptr ds:[edx+910]           Recenter map window here
+004C3B9E   mov edx, dword ptr ds:[ecx+914]           Recenter this window here
+004C3BCF   mov ecx, dword ptr ds:[eax+8FC]           Help
+004D0FC9   mov eax, dword ptr ds:[eax+160]           Cost
+004D6DD9   mov ecx, dword ptr ds:[eax+868]           Destination map
+004D6EC0   mov eax, dword ptr ds:[edx+70C]           Sort:name
+004D6EDE   mov edx, dword ptr ds:[ecx+710]           Sort:size
+004D6F00   mov ecx, dword ptr ds:[eax+714]           Sort:dist
+004D6F3C   mov eax, dword ptr ds:[edx+718]           zoom
+004D6F7F   mov eax, dword ptr ds:[ecx+3EC]           cancel destination
+004D75AC   mov eax, dword ptr ds:[eax+4C4]           Unlinked node
+004D7607   mov eax, dword ptr ds:[ecx+848]           Gate used
+004D7615   mov eax, dword ptr ds:[edx+844]           Gate open
+004D764B   mov eax, dword ptr ds:[eax+3E8]           Distance
+004D7702   mov eax, dword ptr ds:[eax+90C]           Size
+004DA350   mov ecx, dword ptr ds:[eax+DB4]           Atrocities committed
+004DA3B5   mov ecx, dword ptr ds:[eax+DB8]           Major atrocities committed
+004DB135   mov eax, dword ptr ds:[eax+D88]           Diplomacy for
+004DB46E   mov ecx, dword ptr ds:[eax+DAC]           Commlink
+004DB496   mov eax, dword ptr ds:[edx+A18]           Vendetta
+004DB4B4   mov edx, dword ptr ds:[ecx+A0C]           Truce
+004DB4D6   mov ecx, dword ptr ds:[eax+A10]           Treaty
+004DB4FE   mov eax, dword ptr ds:[edx+A14]           Pact
+004DB51F   mov edx, dword ptr ds:[ecx+D90]           I have infiltrator
+004DB544   mov ecx, dword ptr ds:[eax+D94]           I want to talk
+004DB56C   mov eax, dword ptr ds:[edx+D98]           I want revenge
+004DB58D   mov edx, dword ptr ds:[ecx+D9C]           I have surrendered
+004DB5B2   mov ecx, dword ptr ds:[eax+DA0]           I shall betray
+004DB5DD   mov eax, dword ptr ds:[edx+DA4]           I am atrocity victim
+004DB5FE   mov edx, dword ptr ds:[ecx+DA8]           Fight to the death
+004DB623   mov ecx, dword ptr ds:[eax+DF8]           Fix current status as permanent
+004DB6B3   mov edx, dword ptr ds:[ecx+DB0]           Atrocity
+004DB71A   mov ecx, dword ptr ds:[eax+378]           Integrity
+004DB781   mov ecx, dword ptr ds:[eax+D8C]           Clear
+004DB7E8   mov ecx, dword ptr ds:[eax+194]           Ok
+004DD30F   mov eax, dword ptr ds:[edx+B8C]           Female
+004DD317   mov eax, dword ptr ds:[edx+B88]           Male
+004DD360   mov eax, dword ptr ds:[edx+2B8]           Name
+004DD387   mov edx, dword ptr ds:[ecx+2BC]           Formal:
+004DD3B2   mov ecx, dword ptr ds:[eax+2C0]           Noun:
+004DD3E3   mov eax, dword ptr ds:[edx+2C4]           Adjective:
+004DD40A   mov edx, dword ptr ds:[ecx+78C]           Title
+004DD435   mov ecx, dword ptr ds:[eax+790]           Description
+004DD466   mov eax, dword ptr ds:[edx+794]           Gender
+004DD5A6   mov edx, dword ptr ds:[ecx+B8C]           Female
+004DE3B1   mov eax, dword ptr ds:[edx+64]            NONE
+004DFB92   mov edx, dword ptr ds:[ecx+438]           Done
+004DFBB4   mov ecx, dword ptr ds:[eax+FC0]           Toggle
+004DFC31   mov eax, dword ptr ds:[eax+3D8]           DISCOVERED
+004DFC53   mov eax, dword ptr ds:[edx+3DC]           Available
+004DFC60   mov eax, dword ptr ds:[eax+3E0]           Distant
+004E28A2   mov eax, dword ptr ds:[edx+1128]          Hotseat/Play-by-Email
+004E3A14   mov eax, dword ptr ds:[eax+64]            None
+005011A6   mov edx, dword ptr ds:[ecx+16C]           Rocky
+005012DD   mov edx, dword ptr ds:[ecx+548]           Fungus
+0050133B   mov ecx, dword ptr ds:[eax+48C]           Forest
+00501EFC   mov edx, dword ptr ds:[ecx+558]           Gaian Psi
+00501F74   mov eax, dword ptr ds:[edx+55C]           Dream Twist
+00502001   mov eax, dword ptr ds:[edx+558]           Gaian Psi
+00502077   mov eax, dword ptr ds:[edx+560]           Neural Amp
+0050223D   mov edx, dword ptr ds:[ecx+548]           Fungus
+005022D0   mov edx, dword ptr ds:[ecx+1158]          Resonance Attack
+0050249E   mov eax, dword ptr ds:[edx+6D8]           Orbital Insertion
+005024AD   push dword ptr ds:[ecx+6D4]               Air Drop
+00502554   mov edx, dword ptr ds:[ecx+840]           Belief
+005025FB   mov eax, dword ptr ds:[edx+1150]          Alien Offense
+0050269B   mov ecx, dword ptr ds:[eax+9C4]           Planet
+005027F3   mov eax, dword ptr ds:[edx+6CC]           Land Based Guns
+005028A4   mov edx, dword ptr ds:[ecx+6CC]           Land Based Guns
+00502986   push dword ptr ds:[edx+900]               Altitude
+00502A00   push dword ptr ds:[ecx+900]               Altitude
+00502AE0   mov edx, dword ptr ds:[ecx+1154]          Alien Defense
+00502D27   push dword ptr ds:[ecx+900]               Altitude
+00502E3F   push dword ptr ds:[ecx+98C]               Mobile in open
+00502F01   mov edx, dword ptr ds:[ecx+990]           Mobile vs. Base
+00502F0F   push dword ptr ds:[eax+890]               Rough vs. Mobile
+00502F8B   mov edx, dword ptr ds:[ecx+978]           Road Attack
+00503058   push dword ptr ds:[eax+6E4]               Uphill
+00503148   push dword ptr ds:[ecx+528]               Downhill
+005031DA   mov eax, dword ptr ds:[edx+52C]           Terrain
+005032E9   mov ebx, dword ptr ds:[ecx+598]           Bunker
+00503301   mov ebx, dword ptr ds:[ecx+530]           Base
+005034BE   mov ebx, dword ptr ds:[eax+588]           Perimeter
+00503509   mov ebx, dword ptr ds:[eax+594]           Tachyon
+00503551   push dword ptr ds:[ecx+530]               Base
+005035F9   mov ebx, dword ptr ds:[edx+6B0]           Base vs. Blink
+005036C8   push dword ptr ds:[ecx+88C]               Infantry vs. Base
+0050377A   mov ebx, dword ptr ds:[eax+834]           Open Ground
+00503801   mov eax, dword ptr ds:[edx+530]           Base
+0050398B   mov ecx, dword ptr ds:[eax+1164]          Flechette
+00503B7C   push dword ptr ds:[ecx+994]               Sensor
+00503BF2   mov edx, dword ptr ds:[ecx+118C]          GSP
+00503CCC   mov edx, dword ptr ds:[ecx+524]           Trance
+00503D76   mov eax, dword ptr ds:[edx+115C]          Resonance Def.
+00503E63   mov edx, dword ptr ds:[ecx+700]           Ground Strike
+00503ED6   mov edx, dword ptr ds:[ecx+704]           Air-to-Air
+00504020   mov eax, dword ptr ds:[edx+704]           Air-to-Air
+005040D9   mov edx, dword ptr ds:[ecx+6DC]           Non-Combat
+005041A5   mov eax, dword ptr ds:[edx+53C]           In Port
+0050424C   mov edx, dword ptr ds:[ecx+1160]          Pulse Defense
+0050434A   mov edx, dword ptr ds:[ecx+540]           Jammer
+00504447   mov eax, dword ptr ds:[edx+544]           Tracking
+0050747E   mov ecx, dword ptr ds:[eax+54C]           Hasty
+005078FE   mov eax, dword ptr ds:[edx+554]           Nerve Gas
+0050DC7D   mov ecx, dword ptr ds:[eax+658]           west
+0050DC8C   mov eax, dword ptr ds:[edx+650]           east
+0050DCA5   mov edx, dword ptr ds:[ecx+64C]           north
+0050DCB3   mov ecx, dword ptr ds:[eax+654]           south
+0050DCC6   mov eax, dword ptr ds:[edx+64C]           North
+00516EDA   mov eax, dword ptr ds:[eax+AF8]           OFF
+00516F2D   mov eax, dword ptr ds:[ecx+824]           EXPLORE
+00516F4F   mov eax, dword ptr ds:[edx+828]           DISCOVER
+00516F6D   mov eax, dword ptr ds:[eax+82C]           BUILD
+00516F8C   mov eax, dword ptr ds:[ecx+830]           CONQUER
+00516FC3   mov eax, dword ptr ds:[edx+AFC]           ADVANCED
+0051D917   mov eax, dword ptr ds:[edx+70]            Sid Meier's ALPHA CENTAURI
+00523887   mov edx, dword ptr ds:[ecx+119C]          Caretakers
+005238A8   mov ecx, dword ptr ds:[eax+11A8]          exploit the power of the Manifold experiment
+005238BE   mov eax, dword ptr ds:[edx+11A0]          Usurpers
+005238DB   mov edx, dword ptr ds:[ecx+11A4]          guarantee that the Manifold Experiment remains pristine
+0052E691   mov edx, dword ptr ds:[ecx+FE4]           Random
+0052E6C8   mov eax, dword ptr ds:[edx+FE4]           Random
+00565DA3   push dword ptr ds:[ecx+5EC]               /year
+0057CD3D   mov edx, dword ptr ds:[ecx+esi*4+16C]     Rocky
+0057D915   mov eax, dword ptr ds:[edx+310]           Psi
+0057D977   mov eax, dword ptr ds:[ecx+310]           Psi
+0057D9FD   mov eax, dword ptr ds:[edx+28C]           Sea
+0057DA3E   mov eax, dword ptr ds:[ecx+288]           Air
+0057DB6D   mov eax, dword ptr ds:[eax+4E0]           Combat
+0057DBBF   mov eax, dword ptr ds:[ecx+310]           Psi
+0057DD8B   mov eax, dword ptr ds:[ecx+310]           Psi
+0057DE1B   mov eax, dword ptr ds:[ecx+28C]           Sea
+0057DE65   mov eax, dword ptr ds:[eax+288]           Air
+0057E34E   mov eax, dword ptr ds:[edx+2D8]           Recon
+0057E36E   mov eax, dword ptr ds:[eax+2D8]           Recon
+0057E376   mov eax, dword ptr ds:[edx+248]           Scout
+0057E396   mov eax, dword ptr ds:[eax+248]           Scout
+0057E983   mov eax, dword ptr ds:[ecx+28C]           Sea
+0057E9A9   mov eax, dword ptr ds:[edx+28C]           Sea
+0057EAAA   mov eax, dword ptr ds:[edx+87C]           Artillery
+0057EAD7   mov eax, dword ptr ds:[ecx+880]           Battery
+0057EB1C   mov eax, dword ptr ds:[edx+998]           Marines
+0057EB49   mov eax, dword ptr ds:[ecx+99C]           Invaders
+0057ED1A   mov ecx, dword ptr ds:[eax+E5C]           Mk
+0057ED4A   mov eax, dword ptr ds:[edx+E5C]           Mk
+0057ED76   mov eax, dword ptr ds:[edx+E5C]           Mk
+0057EDDD   mov eax, dword ptr ds:[edx+E5C]           Mk
+0057EE58   mov edx, dword ptr ds:[ecx+E5C]           Mk
+0057EE82   mov ecx, dword ptr ds:[eax+E5C]           Mk
+0057EEAD   mov ecx, dword ptr ds:[eax+E5C]           Mk
+0057EF28   mov eax, dword ptr ds:[edx+E5C]           Mk
+005840B7   mov eax, dword ptr ds:[eax+1B8]           Empty Slot
+00584167   mov eax, dword ptr ds:[ecx+368]           Obs.
+005841AE   mov eax, dword ptr ds:[edx+2E4]           Prototypes
+005841E1   mov eax, dword ptr ds:[eax+160]           Cost
+005893F3   mov eax, dword ptr ds:[eax+468]           sec/turn
+00589422   mov eax, dword ptr ds:[ecx+1094]          OR
+0058948A   mov eax, dword ptr ds:[edx+46C]           sec/base
+005894ED   mov eax, dword ptr ds:[eax+470]           sec/unit
+005894FB   mov eax, dword ptr ds:[ecx+474]           No time controls
+00589E39   mov eax, dword ptr ds:[eax+1C4]           Novice
+00589E6D   mov eax, dword ptr ds:[ecx+1C8]           Expert
+0058AAC8   mov ecx, dword ptr ds:[eax+B8C]           Female
+0058AAD0   mov ecx, dword ptr ds:[eax+B88]           Male
+0058AB13   mov ecx, dword ptr ds:[eax+2B8]           Name:
+0058AB3E   mov eax, dword ptr ds:[edx+2BC]           Formal:
+0058AB5F   mov edx, dword ptr ds:[ecx+2C0]           Noun:
+0058AB87   mov ecx, dword ptr ds:[eax+2C4]           Adjective:
+0058ABAF   mov ecx, dword ptr ds:[eax+78C]           Title
+0058ABD7   mov ecx, dword ptr ds:[eax+790]           Description
+0058ABFF   mov ecx, dword ptr ds:[eax+794]           Gender
+0058AD05   mov eax, dword ptr ds:[edx+B8C]           Female
+0058B0FE   mov eax, dword ptr ds:[edx+B8C]           Female
+0058B106   mov eax, dword ptr ds:[edx+B88]           Male
+0058B14F   mov eax, dword ptr ds:[edx+2B8]           Name:
+0058B170   mov edx, dword ptr ds:[ecx+2BC]           Formal:
+0058B195   mov ecx, dword ptr ds:[eax+2C0]           Noun:
+0058B1BD   mov ecx, dword ptr ds:[eax+2C4]           Adjective:
+0058B1E5   mov ecx, dword ptr ds:[eax+78C]           Title
+0058B20D   mov ecx, dword ptr ds:[eax+790]           Description
+0058B235   mov ecx, dword ptr ds:[eax+794]           Gender
+0058B322   mov eax, dword ptr ds:[edx+B8C]           Female
+0058CFF4   mov eax, dword ptr ds:[edx+1104]          Custom Size
+0058D1C2   mov edx, dword ptr ds:[ecx+1108]          Horizontal
+0058D214   mov eax, dword ptr ds:[edx+110C]          Vertical
+0058E0E1   mov eax, dword ptr ds:[ecx]               Mission Year
+0058EA5E   mov eax, dword ptr ds:[ecx]               Mission Year
+0058F0EB   mov eax, dword ptr ds:[eax+198]           Cancel
+0058F135   mov eax, dword ptr ds:[ecx+194]           Ok
+0058F35E   mov eax, dword ptr ds:[eax+198]           Cancel
+0058F3A9   mov eax, dword ptr ds:[ecx+194]           Ok
+00590563   mov eax, dword ptr ds:[ecx+13C]           Reactor
+00590624   mov eax, dword ptr ds:[eax+204]           Weapon
+0059065A   mov eax, dword ptr ds:[ecx+310]           Psi
+005906BC   mov eax, dword ptr ds:[eax+284]           Payload
+0059074A   mov eax, dword ptr ds:[eax+154]           Defense
+0059076C   mov al, byte ptr ds:[edi+94F280]          Armor Strength
+0059077F   mov eax, dword ptr ds:[ecx+310]           Psi
+005907B8   mov al, byte ptr ds:[edi+94F281]          Armor type
+0059085D   mov eax, dword ptr ds:[eax+140]           Chassis
+005908C2   mov eax, dword ptr ds:[ecx+288]           Air
+005908DE   mov eax, dword ptr ds:[edx+28C]           Sea
+00590961   mov eax, dword ptr ds:[ecx+26C]           Facility
+005909E1   mov eax, dword ptr ds:[ecx+2CC]           Project
+00590A6B   mov eax, dword ptr ds:[edx+114]           Society
+00590AFA   mov eax, dword ptr ds:[edx+290]           Ability
+00590B6C   mov eax, dword ptr ds:[ecx+274]           Tech
+00590BE7   mov eax, dword ptr ds:[ecx+314]           Unit
+00590EFB   mov eax, dword ptr ds:[eax+A90]           UNTITLED
+005922AE   mov eax, dword ptr ds:[eax+F8]            near
+005922E0   mov eax, dword ptr ds:[ecx+20]            at
+005A08F3   mov edx, dword ptr ds:[ecx+1010]          Planet Buster Silos
+005A09F7   mov eax, dword ptr ds:[eax+3E4]           Production
+005A588C   mov eax, dword ptr ds:[ecx+eax*4]         Free Faction Leader
+005A9F93   mov eax, dword ptr ds:[ecx+2D0]           of the
+005AA0FF   mov eax, dword ptr ds:[edx+9C8]           Scenario Files
+005AA10E   mov edx, dword ptr ds:[ecx+674]           Save Files
+005AAC23   mov ecx, dword ptr ds:[eax+9C8]           Scenario Files
+005AAC32   mov eax, dword ptr ds:[edx+674]           Save Files
+005AAFD8   mov eax, dword ptr ds:[eax]               Mission Year
+005ABC16   mov edx, dword ptr ds:[ecx+678]           Map Files
+005AD8A9   mov edx, dword ptr ds:[ecx+36C]           Close
+005B1142   mov eax, dword ptr ds:[ecx+984]           Template
+005B3C76   mov ecx, dword ptr ds:[eax+3D4]           Aliens
+005B3CA0   mov eax, dword ptr ds:[edx+3D4]           Aliens
+005B3CC0   mov edx, dword ptr ds:[ecx+3D0]           Alien
+005B9C5A   mov eax, dword ptr ds:[eax+4D8]           Not Available
+005B9C88   mov eax, dword ptr ds:[edx+64]            NONE
+005B9CB1   mov eax, dword ptr ds:[ecx+4C8]           World Map
+005B9D67   mov ecx, dword ptr ds:[edx+ecx*4+9D4]     E Labels.txt
+005B9E16   mov eax, dword ptr ds:[eax+79C]           Comm Frequency
+005B9E27   mov eax, dword ptr ds:[ecx+79C]           Comm Frequency
+005B9ECF   mov eax, dword ptr ds:[ecx+2E4]           Prototypes
+005BB7EC   mov edx, dword ptr ds:[ecx+35C]           Data Links

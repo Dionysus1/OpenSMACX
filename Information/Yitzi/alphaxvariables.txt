@@ -1,0 +1,208 @@
+"worksheet" is at 949860-67. Flags are 949858-F:
+
+949858 bits 3F: Drone flags.
+949858 bit 40: Maglev bonus to mine.
+949858 bit 80: Condenser shares square.
+949859 bit 1: Monolith counts as fungus if better.
+949859 bit 2: Infiltration costs energy.
+949859 bit 4: Can steal random tech.
+949859 bit 8: Can steal targeted tech.
+949859 bit 10: Techsteal costs energy.
+949859 bit 20: Can subvert multiple units.
+949859 bit 40: Units in base add directly to subversion cost.
+949859 bit 80: Netcontact.
+94985A bit 1: PBEMcontact.
+94985A bit 2: Oblit is atrocity.
+94985A bit 4: Borehole squaring.
+94985A bit 8: Bonus ecodamage independence.
+94985A bit 10: Pop-CM only offsets atrocities.
+94985A bit 20: Busters instead of atrocities.
+94985A bits C0: Creche effect on homebased morale.
+94985B bit 1: Base-to-base convoy efficiency factor.
+94985B bit 2: Convoys can't help build projects.
+94985B bits 7C: Unit cost formula.
+94985B bit 80: Fungus resources.
+94985C bits 7: Missile rules.
+94985C bit 8: Enhanced information.
+94985C bits F0: Probe team morale flags (10 to start at disciplined, 20 to count CC/NY/AC, 40 to count 
+  bioenhancement center, 80 to give penalty for -PROBE
+94985D bits 1F: Alternate psi rules.
+94985D bit 20: To be placed as tech gives genetic warfare resistance to units
+94985F bit 8: Multibuild.
+94985F bit 10: Is looping back (or did) for multibuild.
+94985F bit 20: Recalculate base statistics.
+94985F bit 40: Is not a base-statistics recalculation.
+94985F bit 80: Display mode is on (so superdrones should be capped at drones and stockpile added to energy, and any change
+should be reflected in buttons)
+
+RULES: Available locations are 949738-853.
+
+Uses:
+565C69: Load DWORD to [ESI] and advance ESI
+402C62: Same for BYTE
+565C8A: Same for WORD/WORD
+4CCCF6: Same for WORD
+565CAC: Same for tech
+4E47C9: Same for bitfield, moves to [949858], bit equal to arg1.
+4E4847: Load retool penalty/exemption number ESI and increment ESI, and if ESI!=0, AND [682BD0] with arg1 if 
+  mismatches #0 and with arg2 if mismatches #1.
+
+(1)Roads movement is dword at 949738.
+(2)nutseaten is byte at 94973C.
+(3)Genejack drones is byte at 94973D.
+(4)Drone flags (5 flags) is bits 1F of 949858.  Want to add in bit 20 as well.
+(5)Nutrients cost multiplier and minerals cost multiplier are bytes at 94973E and 94973F.
+(6)Artillery numerator/denominator are words at 949740 and 949742.
+(7)Artrange is byte at 949744.
+(8)Base-size-for-specialists is byte at 949745.
+(9)Airdrop range is word at 949746.
+(10)Tech discovery rate is word at 949748.
+(11)Mine bonus cap without road, is byte at 94974A.
+*(12)Mine effect increased with maglev to be placed as bit 40 of 94983C.
+(13)Mine effect on nuts is byte at 94974B.
+(14)Nutrients by condenser is byte at 994974C.
+(15)Condenser can share square with most other terraforming to be placed as bit 80 of 94983C.
+(16)Monolith counts as fungus if better to be placed as bit 1 of 94983D.
+(17)Hab complex/dome limits are bytes at 94974D and 94974E.
+(18)Base pop cap to be placed as byte at 94974F.
+(19)Extra prototype cost are words at 949750, 949752, and 949754.
+(20)Psi offense/defense are words at:
+    Land:949756/58
+    Sea:94975A/5C
+    Air:94975E/60
+(21)Starting energy is word at 949762.
+(22)Base defense is word at 949764.
+(23)Along-road attack is word at 949766.
+(24)Downhill attack is word at 949768.
+(25)Uphill attack is word at 94976A.
+(26)Mobile in open is word at 94976C.
+(27)Defend vs. mobile in rough is word at 94976E.
+(28)Infantry vs. base is word at 949770.
+(24)Attack after airdrop is word at 949772.
+(25)Fanatic is word at 949774.
+(26)Land based guns is word at 949776.
+(27)Arty altitude is word at 949778.
+(28)Trance is word at 94977A.
+(29)Empath is word at 94977C.
+(30)Air superiority penalty is word at 94977E.
+(31)Air superiority bonus is word at 949780.
+(32)Noncombat penalty is word at 949782.
+(33)Comm Jammer is word at 949784.
+(34)Bonus vs. in-port is word at 949786.
+(35)AAA is word at 949788.
+(36)Sensor is word at 94978A.
+(37)PLANET bonus to psi is word at 94978C.
+(38)Forest minerals is byte at 94978E.
+(39)Retool penalties placed as bytes at 94978F-99: Unit/unit, unit/facility, facility/facility, unit/satellite, 
+  facility/satellite, satellite/satellite, unit/project, facility/project, satellite/project, project/project,
+  same-category-with-skunkworks-if-better.  (Stockpile counts as satellite, but give it different text.)  So is at 
+  94978E+higher(higher-1)/2+lower, or 949799 for skunkworks.
+(40)Exemptions to be placed as words at 94979A-AE, same categories as before.  
+  So is 949798+higher(higher-1)+2*lower, or 9497AE for skunkworks.
+(41)Turns between councils is word at 9497B0.
+(42)Territory distance is byte at 9497B2.
+(43)Turns to corner is byte at 9497B3.
+(44)Impfungus tech is byte at 9497B4.
+(45)Fungmov tech is byte at 9497B5.
+(46)Fungroad tech is byte at 9497B6.
+(47)2-ability tech is byte at 9497B7.
+(48)Nutcap tech is byte at 9497B8.
+(49)Mincap tech is byte at 9497B9.
+(50)Energycap tech is byte at 9497BA.
+(51)Orbital insertion tech is byte at 9497BB.
+(52)Platform bonus tech is byte at 9497BC.
+(53)Economic victory tech is byte at 9497BD.
+(54)Crawl3 tech is byte at 9497BE.
+(55)Crawl3-out-of-radius tech is byte at 9497BF.
+(56)Double-ECM-and-AAA tech is byte at 9497C0.
+(57)Boost-super-formers tech to be placed as byte at 9497C1.
+(58)Infiltration costs energy to be placed at bit 2 of 949859.
+(59)Infiltration duration to be placed as word at 9497C2.
+(60)Random techsteal possible is bit 4 of 949859.
+(61)Targeted techsteal possible to be placed at bit 8 of 949859.
+(62)Techsteal costs energy to be placed at bit 10 of 949859.
+(63)Can subvert multiple units to be placed at bit 20 of 949859.
+(64)Units in base add directly to subversion cost to be placed at bit 40 of 949859.
+(64a)Techs give genetic warfare resistance to units at bit 20 of 94985D
+(65)Netcontact flag is bit 80 of 949859.
+(66)PBEMcontact flag is bit 1 of 94985A.
+(67)Antibase arty is byte at 9497C4.
+(68)Antiopen arty is byte at 9497C5.
+(69)Antisea arty is byte at 9497C6.
+{skip 9497C7}
+(70)Global warming frequency is words at 9497C8/CA.
+(71)Starting year is dword at 9497CC.
+(72)Easy ending year is dword at 9497D0.
+(73)Hard ending year is dword at 9497D4.
+(74)Oblit-atrocity flag is bit 2 of 94985A.
+(75)Subspace basesize is word at 9497D8.
+(76)Subspace number is word at 9497DA.
+(77)Bonus borehole damage is word at 9497DC. 
+(78)Bonus mirror damage is word at 9497DE.
+(79)Bonus condenser damage is word at 9497E0.
+(80)Borehole squaring is bit 4 of 94985A.
+(81)Bonus ecodamage independence is bit 8 of 94985A.
+(82)Starting clean minerals is word at 9497E2.
+(83)CM per pop is word at 9497E4.
+(84)CM per facility is word at 9497E6.
+(85)Virtual minerals per atrocity is word at 9497E8.
+(86)pop-CM only offsets atroc is bit 10 of 94985A.
+(87)Busters instead of atrocities is bit 20 of 94985A.
+(88)Mineral divisor is word at 9497EA.
+(89)PLANET base multiplier is byte at 9497EC.
+(90)PLANET minimum multiplier is byte at 9497ED.
+(91)PLANET maximum multiplier is byte at 9497EE.
+Skip 9497EF
+(92)Ecodamage divisor is dword at 9497F0.
+(93)Bonus ecodamage per base is word at 9497F4.
+(94)VoP effect on ecodamage to be placed as 6 pairs of bytes (numerator/denominator for self, pact, treaty, 
+  truce, vendetta, destroyed) at 9497F6-949800.
+(95)Post-VoP threshold for pop to be placed with constant as byte at 949802, extra per PLANET as byte at
+  949803, and num/denom per ecodamage chance as bytes at 949804-5.
+(96)Post-VoP threshold for worms to be likewise placed as 4 bytes at 949806-9.
+(97)Post-VoP Fungal blooms per turn on standard world to be placed as word at 94980A.
+(98)Ecodamage at nearest base to possibly prevent worm capture to be placed as byte at 94980C.
+(99)Ecodamage at nearest base to definitely prevent worm capture to be placed as byte at 94980D.
+(100)Creche effect on homebased morale (none/round effect down/round effect up) to be placed at bits 6 of 
+  94985C.
+(101)Linear for new cost is word at 94980E.
+(102)Linear for old cost is word at 949810.
+(103)Quadratic for new cost (in sixteenths) is word at 949812.
+(104)Quadratic for old cost (in sixteenths) is word at 949814.
+(105)Linear for weapon difference is word at 949816.
+(106)Linear for armor difference is word at 949818.
+(107)Planetpearls is word at 94981A.
+(108)Air speed bonus is bytes at 94981C-F.
+(109)Max cargo per reactor level for convoy to be placed as word at 949820; 0 means use standard system.
+(110)Standard system: Base-to-base crawler amount cap to be placed as byte at 949822; -1 for unlimited.
+(111)Standard system: Max crawlers benefitting a base by population to be placed with numerator/denominator at
+  949822/949823; denominator 0 means no maximum.
+(110b)Alternate system: Convoy unload rate per population to be placed as byte at 949822 
+  (read 949820 to determine which ones to load.)
+(112)Crawler penalty is byte at 949824.
+(113)Base-to-base convoy efficiency factor to be placed as bit 4 of 94983F.
+(114)Convoys can't help build projects to be placed as bit 8 of 94983F.
+(115)Super former rate to be placed as byte at 949825.
+(116)Unit cost control flags placed at bits 7C of 94985B: 1C for mode, 20 for air/sea reactor-based to chassis, 
+  40 for secondary control.
+(117)Recalculate base statistics placed at bit 20 of 94985F, with bit 40 reserved for "is not a recalculation."
+(118)Fungus resources placed at bit 80 of 94985B.
+(119)Pacifism rules are word at 949826.
+(120)Missile rules are bits 7 of 94985C.
+(121)Probe team morale flags to be placed as bits F0 of 94985C.
+(122)Carry-over minerals are word at 949828.
+(123)Multibuild is bit 8 of 94985F, with bit 10 reserved for "will/did loop back."
+(124)Support divisor is byte at 94982A.
+(125)Enhanced information is bit 8 of 94985C.
+(126)SE change cost divisor to be placed as byte at 94982B: cost is 
+  DIFF*(areas changed)^3*empire population/divisor, rounded up; if 0, use old formula.
+(127)Minerals for new base placed as byte at 94982C.
+(128)Facility rush threshold placed as byte at 94982D.
+(129)Project rush threshold, in rows, placed as byte at 94982E.
+(130)Pop cost to convoys and pop cost to pods to be placed as 2 nibbles at 94982F.
+(132)GROWTH to pop boom and GROWTH granted by cloning vats to be placed as 2 nibbles at 949830.
+(133)Paradise Garden talent value (negative means pop/-x) to be placed as byte at 949831.
+(134)Alternate psi rules to be placed as bits 1F of 94985D.
+(135)Difficulty splitting and aggressiveness cap to be placed as 8 nibbles at 949834-7.
+
+(-1)Landmarks enabled to be placed as word at 949854.
