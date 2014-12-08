@@ -1,7 +1,7 @@
 OpenSMACX
 =========
 
-An open source clone of Sid Meiers Alpha Centauri&amp;Alien Crossfire in C++.
+A project to decompile SMAC/AX back to C++ in order to increase the ease of bug fixes and adding features, with the long term goal of creating a full open source clone.
 
 Legal
 =========
